@@ -264,9 +264,7 @@ void IMAAEntity_Tasker::Login(){
 }
 
 
-int IMAAEntity_Tasker::OCRClick(const char* expected_str){
-
-    
+int IMAAEntity_Tasker::OCRClick(const char* expected_str,int timeout=10000){
      #ifdef _WIN32
        SetConsoleOutputCP(CP_UTF8); // 条件编译,设置控制台输出为UTF-8
     #endif
@@ -281,7 +279,8 @@ int IMAAEntity_Tasker::OCRClick(const char* expected_str){
             "OCRTask": {
                         "recognition": "OCR",           
                         "expected": ")" + std::string(expected_str) + R"(",            
-                        "action": "Click"
+                        "action": "Click",
+                        "timeout": )" + std::to_string(timeout) + R"(
                     }
         }
         )";
@@ -302,7 +301,7 @@ int IMAAEntity_Tasker::OCRClick(const char* expected_str){
         return -1;
     }
 }
-int IMAAEntity_Tasker::TemplateMatchClick(const char* Template_path){
+int IMAAEntity_Tasker::TemplateMatchClick(const char* Template_path,int timeout=10000){
      #ifdef _WIN32
        SetConsoleOutputCP(CP_UTF8); // 条件编译,设置控制台输出为UTF-8
     #endif
@@ -314,15 +313,16 @@ int IMAAEntity_Tasker::TemplateMatchClick(const char* Template_path){
     try{
         std::string ORCtask_json = R"(
         {
-            "OCRTask": {
+            "TemplateMatchTask": {
                         "recognition": "TemplateMatch",           
                         "template": ")" + std::string(Template_path) + R"(",            
-                        "action": "Click"
+                        "action": "Click",
+                        "timeout": )" + std::to_string(timeout) + R"(
                     }
         }
         )";
         this->task_id = MaaTaskerPostTask(this->tasker_handle,
-            "OCRTask", //任务名
+            "TemplateMatchTask", //任务名
             ORCtask_json.c_str());
     MaaTaskerWait(this->tasker_handle,this->task_id);
     MaaTaskerGetTaskDetail(
@@ -339,10 +339,12 @@ int IMAAEntity_Tasker::TemplateMatchClick(const char* Template_path){
     }
 
 }
-int IMAAEntity_Tasker::FeatureMatchClick(const char* Template_path){
+
+int IMAAEntity_Tasker::FeatureMatchClick(const char* Template_path,int timeout=10000){
      #ifdef _WIN32
        SetConsoleOutputCP(CP_UTF8); // 条件编译,设置控制台输出为UTF-8
     #endif
+
     std::cout<<Template_path<<std::endl;
     MaaStringBuffer* detail_buffer = MaaStringBufferCreate();
     MaaSize node_id_list_size=10;
@@ -354,7 +356,8 @@ int IMAAEntity_Tasker::FeatureMatchClick(const char* Template_path){
             "OCRTask": {
                         "recognition": "FeatureMatch",           
                         "expected": ")" + std::string(Template_path) + R"(",            
-                        "action": "Click"
+                        "action": "Click",
+                        "timeout": )" + std::to_string(timeout) + R"(
                     }
         }
         )";

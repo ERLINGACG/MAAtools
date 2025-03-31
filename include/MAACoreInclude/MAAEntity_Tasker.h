@@ -20,9 +20,9 @@ class MAA_API IMAAEntity_Tasker: public MAAEntity_Tasker{
          void PostTaskOnceShowDetail(const char* Task_Path,int size);
          MaaTasker* GetTaskHandle();
          void  Login();
-         int   OCRClick(const char* expected);     //期望字符串
-         int   TemplateMatchClick(const char* Ttemplate); //模板匹配
-         int   FeatureMatchClick(const  char* Ftemplate);
+         int   OCRClick(const char* expected,int timeout);     //期望字符串
+         int   TemplateMatchClick(const char* Ttemplate,int timeout); //模板匹配
+         int   FeatureMatchClick(const  char* Ftemplate,int timeout);
          
 
 };     

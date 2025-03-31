@@ -107,9 +107,9 @@ extern "C" { //任务API
         pTasker->Login();
     }
 
-    MAA_API int OCRClickTask(IMAAEntity_Tasker* pTasker,const char* str){
-        return pTasker->OCRClick(_strdup(str));
-    }
+    // MAA_API int OCRClickTask(IMAAEntity_Tasker* pTasker,const char* str,){
+    //     return pTasker->OCRClick(_strdup(str));
+    // }
     
 }
 
@@ -117,7 +117,7 @@ extern "C"{
     MAA_API void TestDoSomething(IMAAEntity_Tasker* pTasker){ //测试用
         int result = 0;
         while (true) {
-           int result = pTasker->OCRClick("电池");
+           int result = pTasker->OCRClick("电池",2000);
            std::cout << "result:" << result << std::endl;
            std::cout << "not found the glabal try to continue" << std::endl;
            if(result == 3000){ //3000表示识别成功
@@ -126,8 +126,16 @@ extern "C"{
            }
         }
     }
-    
-
+    MAA_API void TestDoSomething2(IMAAEntity_Tasker* pTasker){ //测试用
+        int result = 0;
+        while(true){
+            int result = pTasker->TemplateMatchClick("Arknights/gamestart/开始演算.png",20000);
+            if(result == 3000){
+                std::cout<<"found the glabal try to break"<<std::endl;
+                break;
+            }
+        }
+    }
 }
 
 // extern "C" { 
