@@ -1,8 +1,11 @@
 # MAAtools
 
 
-本项目根据 GNU 宽通用公共许可证 v3.0 - 有关详细信息，请参阅 LGPL-3.0 
-[`LGPL-3.0`](./LICENSE.md) 文件。
+## 📜 许可证声明
+本项目基于 [GNU 宽通用公共许可证 v3.0 (LGPL-3.0)](./LICENSE.md)，特别说明：
+- 衍生自 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 框架
+- 保留原始框架所有版权声明
+- 修改部分以相同协议开源
 
 ⚠️ **本项目目前处于早期开发阶段，API 可能会发生重大变更，暂不建议用于生产环境**
 
