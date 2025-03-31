@@ -40,4 +40,5 @@
 - 暂不建议用于生产环境
 
 ### 🙏 致谢
-- 特别感谢Maa框架[https://github.com/MaaXYZ/MaaFramework]开源的核心技术以及所有对MaaFramework框有所贡献的开发者
+- 特别感谢 [**MAA Framework**](https://github.com/MaaXYZ/MaaFramework) 开源的核心技术
+- 以及所有对MaaFramework框有所贡献的开发者
