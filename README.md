@@ -28,5 +28,16 @@
 - 任务状态追踪（GetTaskerDetial）
 
 ### 实验性功能
-▪ 图像识别功能（OCRClick/TemplateMatchClick）  
+▪ 二次封装原有的图像识别功能（OCRClick/TemplateMatchClick）  
 ▪ 调试用测试方法（TestDoSomething 系列）
+
+### 当前状态
+`开发预览版 0.x`  
+⚠️ 注意：
+- 核心 API 仍在持续开发中
+- 存在未完善的接口定义(以及可能出现的拼写错误，本人英语不好，见谅)
+- 部分功能尚未通过完整测试
+- 暂不建议用于生产环境
+
+### 🙏 致谢
+- 特别感谢Maa框架[https://github.com/MaaXYZ/MaaFramework?tab=readme-ov-file]开源的核心技术以及所有对MaaFramework框有所贡献的开发者
