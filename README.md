@@ -8,7 +8,7 @@
 
 ## 项目概述
 
-基于 [MaaFramework 框架](https://github.com/MaaXYZ/MaaFramework) 的二次开发工具库，提供面 C++ API 封装，包含以下核心模块：
+基于 [MaaFramework 框架](https://github.com/MaaXYZ/MaaFramework) 的二次开发工具库，提供对原有的 C++ API 进行二次封装，包含以下核心模块：
 
 ### 核心功能模块
 ▫ **控制器管理**  
