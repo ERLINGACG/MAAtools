@@ -1,0 +1,7 @@
+{
+    "Z5199":{
+        "recognition": "TemplateMatch",           
+        "template": "Arknights/gamestart/下一日.png",            
+        "action": "Click"
+    }
+}

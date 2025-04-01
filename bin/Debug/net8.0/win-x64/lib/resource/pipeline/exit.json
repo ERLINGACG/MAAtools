@@ -1,0 +1,22 @@
+{
+
+    "Start": {
+        "next": [
+            "T28",
+            "T29"
+        ]
+    },
+    "T28":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T29"
+        ]
+    },
+    "T29":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click"
+    }
+}

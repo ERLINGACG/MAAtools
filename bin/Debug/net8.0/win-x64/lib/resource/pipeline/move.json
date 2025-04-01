@@ -1,0 +1,17 @@
+{
+    "MyTask11": {
+        "action":"Swipe",
+        "begin":[300,300,40,40],
+        "end":  [500,300,40,40],
+
+        "next":[
+            "T1001"
+        ]
+    },
+    "T1001": {
+        "recognition": "OCR", 
+        "expected": "灌木林", 
+        "action": "Click"
+    }
+
+}

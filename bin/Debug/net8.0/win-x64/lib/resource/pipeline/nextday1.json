@@ -1,0 +1,48 @@
+{
+    "StartFruit": {
+       "next": [
+           "T5199",
+           "T5200",
+           "T5201",
+           "T5202",
+           "T5203"
+       ]
+    },
+    "T5199":{
+        "recognition": "TemplateMatch",           
+        "template": "Arknights/gamestart/下一日3.png",            
+        "action": "Click",
+        "next":[
+            "T5200"
+        ]
+    },
+    "T5200":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/第二日.png",            
+        "action": "Click",
+        "next":[
+            "T5201"
+        ]
+    },
+    "T5201":{
+        "recognition": "OCR",
+        "expected":"消磨",
+        "action":"Click",
+        "next":[
+            "T5202"
+        ]           
+    },
+    "T5202":{
+        "recognition": "OCR",
+        "expected":"确认",
+        "action":"Click",
+        "next":[
+            "T5203"
+        ]
+    },
+    "T5203":{
+        "recognition": "TemplateMatch",           
+        "template": "Arknights/gamestart/下一日3.png",            
+        "action": "Click"
+    }
+}

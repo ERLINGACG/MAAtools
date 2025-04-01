@@ -1,0 +1,127 @@
+{
+    "T13": {
+        "recognition": "OCR", 
+        "expected": "好地方", 
+        "action": "Click",
+        "next":[
+            "T14"
+        ]
+    },
+    "T14": {
+        "recognition": "OCR", 
+        "expected": "招待客人", 
+        "action": "Click",
+        "next":[
+            "T15"
+        ]
+    },
+    "T15": {
+        "recognition": "OCR", 
+        "expected": "仓库管理", 
+        "action": "Click",
+        "next":[
+            "T16"
+        ]
+    },
+    "T16": {
+        "recognition": "OCR", 
+        "expected": "维护营地", 
+        "action": "Click",
+        "next":[
+            "T17"
+        ]
+    },
+    "T17": {
+        "recognition": "OCR", 
+        "expected": "明天一早", 
+        "action": "Click",
+        "next":[
+            "T18"
+        ]
+    },
+    "T18":{
+        "recognition": "OCR", 
+        "expected": "这么快就要启程", 
+        "action": "Click",
+        "next":[
+            "T19"
+        ]
+    },
+    "T19":{
+        "recognition": "OCR", 
+        "expected": "路上", 
+        "action": "Click",
+        "next":[
+            "T20"
+        ]
+    },
+    "T20":{
+        "recognition": "OCR", 
+        "expected": "探索", 
+        "action": "Click",
+        "next":[
+            "T21"
+        ]
+    },
+    "T21":{
+        "recognition": "OCR", 
+        "expected": "物资", 
+        "action": "Click",
+        "next":[
+            "T22"
+        ]
+    },
+    "T22":{
+        "recognition": "OCR", 
+        "expected": "会需要", 
+        "action": "Click",
+        "next":[
+            "T23"
+        ]
+    },
+    "T23":{
+        "recognition": "OCR", 
+        "expected": "千万", 
+        "action": "Click",
+        "next":[
+            "T24"
+        ]
+    },
+    "T24":{
+        "recognition": "OCR", 
+        "expected": "谢谢", 
+        "action": "Click",
+        "next":[
+            "T25"
+        ]
+    },
+    "T25":{
+        "recognition": "OCR", 
+        "expected": "木材", 
+        "action": "Click",
+        "next":[
+            "T226"
+        ]
+    },
+    "T226":{
+        "recognition": "OCR", 
+        "expected": "木材", 
+        "action": "Click",
+        "next":[
+            "T26"
+        ]
+    },
+    "T26":{
+        "recognition": "OCR", 
+        "expected": "休息", 
+        "action": "Click",
+        "next":[
+            "T27"
+        ]
+    },
+    "T27":{
+        "recognition": "OCR", 
+        "expected": "明天", 
+        "action": "Click"
+    }
+}

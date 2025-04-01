@@ -1,0 +1,38 @@
+{
+    "StartNewCycle003": {
+        "next": [
+            "T7207",
+            "T7208",
+            "T7209",
+            "T7210"
+        ]
+     },
+     "T7207":{
+        "action": "Click",
+        "target":[1004,619,185,96],
+        "next":[
+            "T7208"
+        ]
+    
+    },
+    "T7208":{
+        "recognition": "OCR", 
+        "expected": "删除存档", 
+        "action": "Click",
+        "next":[
+            "T7209"
+        ]
+    },
+    "T7209":{
+        "action": "Click",
+        "target":[925,464,121,36],
+        "next":[
+            "T7210"
+        ]
+    },
+    "T7210":{
+        "action": "Click",
+        "target":[925,464,121,36]
+    }
+    
+}

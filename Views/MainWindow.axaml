@@ -1,0 +1,52 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:MAAtools.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MAAtools.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="MAAtools"
+        Background="#222222"
+        Width="800" 
+        MinWidth="800"   
+        MinHeight="450">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    <Grid>
+            <Border x:Name="SidebarBorder">
+
+                <Grid x:Name="Sidebar">  
+                    <!-- 可以在这个 Grid 中添加您的内容 -->
+                    <StackPanel VerticalAlignment="Top" 
+                        HorizontalAlignment="Center"
+                        Spacing="00"> <!-- 控制选项间距 -->
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"  Margin="0,0,0,0">Version1.0.0</TextBlock>
+                        <Button x:Name="Sidebar_Buttom1"   Click="ShowPage1" Margin="0,40,0,0"/>
+                        <Button x:Name="Sidebar_Buttom2"   Click="ShowPage2" Margin="0,0,0,0"/>
+                        <Button x:Name="Sidebar_Buttom3"   Click="ShowPage3" Margin="0,0,0,0"/>
+                        <!-- <Button x:Name="Sidebar_Buttom4" Content="调试页面"        Click="ShowPage3" Margin="0,0,0,0"/> -->
+                    </StackPanel>
+                    <Button x:Name="Settings" Content="设置" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="ShowSetting" Margin="0,0,0,40"/>
+                </Grid>
+
+            </Border>
+            <Grid>
+                
+            </Grid>
+            <ContentControl Name="CurrentPage"/>
+            
+
+    </Grid>
+    
+        
+    
+
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
+
+</Window>

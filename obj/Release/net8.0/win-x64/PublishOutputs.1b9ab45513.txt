@@ -1,0 +1,5 @@
+E:\MAAtool\Csharp\GUI\MAAtools\bin\Release\net8.0\win-x64\publish\MAAtools.pdb
+E:\MAAtool\Csharp\GUI\MAAtools\bin\Release\net8.0\win-x64\publish\av_libglesv2.dll
+E:\MAAtool\Csharp\GUI\MAAtools\bin\Release\net8.0\win-x64\publish\libHarfBuzzSharp.dll
+E:\MAAtool\Csharp\GUI\MAAtools\bin\Release\net8.0\win-x64\publish\libSkiaSharp.dll
+E:\MAAtool\Csharp\GUI\MAAtools\bin\Release\net8.0\win-x64\publish\MAAtools.exe

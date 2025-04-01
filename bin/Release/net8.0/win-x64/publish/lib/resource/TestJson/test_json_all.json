@@ -1,0 +1,434 @@
+{
+    "T11": {
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/开始演算.png",            
+        "action": "Click",
+        "next":[
+            "T12"
+        ]
+
+    },
+    "T12": {
+            "recognition": "FeatureMatch",           
+            "template": "Arknights/gamestart/pass1.png",            
+            "action": "Click",
+            "next":[
+                
+                "T213"
+            ]
+    },
+    "T213": {
+        "recognition": "FeatureMatch",           
+            "template": "Arknights/gamestart/开始行动.png",            
+            "action": "Click",
+            "next":[
+                "T13"
+            ]
+    },
+
+    "T13": {
+        "recognition": "OCR", 
+        "expected": "好地方", 
+        "action": "Click",
+        "next":[
+            "T14"
+        ]
+    },
+    "T14": {
+        "recognition": "OCR", 
+        "expected": "招待客人", 
+        "action": "Click",
+        "next":[
+            "T15"
+        ]
+    },
+    "T15": {
+        "recognition": "OCR", 
+        "expected": "仓库管理", 
+        "action": "Click",
+        "next":[
+            "T16"
+        ]
+    },
+    "T16": {
+        "recognition": "OCR", 
+        "expected": "维护营地", 
+        "action": "Click",
+        "next":[
+            "T17"
+        ]
+    },
+    "T17": {
+        "recognition": "OCR", 
+        "expected": "修整完毕", 
+        "action": "Click",
+        "next":[
+            "T18"
+        ]
+    },
+    "T18":{
+        "recognition": "OCR", 
+        "expected": "这么快就要启程", 
+        "action": "Click",
+        "next":[
+            "T19"
+        ]
+    },
+    "T19":{
+        "recognition": "OCR", 
+        "expected": "路上", 
+        "action": "Click",
+        "next":[
+            "T20"
+        ]
+    },
+    "T20":{
+        "recognition": "OCR", 
+        "expected": "探索", 
+        "action": "Click",
+        "next":[
+            "T21"
+        ]
+    },
+    "T21":{
+        "recognition": "OCR", 
+        "expected": "物资", 
+        "action": "Click",
+        "next":[
+            "T22"
+        ]
+    },
+    "T22":{
+        "recognition": "OCR", 
+        "expected": "地图", 
+        "action": "Click",
+        "next":[
+            "T23"
+        ]
+    },
+    "T23":{
+        "recognition": "OCR", 
+        "expected": "千万", 
+        "action": "Click",
+        "next":[
+            "T24"
+        ]
+    },
+    "T24":{
+        "recognition": "OCR", 
+        "expected": "谢谢", 
+        "action": "Click",
+        "next":[
+            "T25"
+        ]
+    },
+    "T25":{
+        "recognition": "OCR", 
+        "expected": "木材", 
+        "action": "Click",
+        "next":[
+            "T226"
+        ]
+    },
+    "T226":{
+        "recognition": "OCR", 
+        "expected": "木材", 
+        "action": "Click",
+        "next":[
+            "T26"
+        ]
+    },
+    "T26":{
+        "recognition": "OCR", 
+        "expected": "休息", 
+        "action": "Click",
+        "next":[
+            "T27"
+        ]
+    },
+    "T27":{
+        "recognition": "OCR", 
+        "expected": "明天", 
+        "action": "Click",
+        "next":[
+            "T28"
+        ]
+    },
+    "T28":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T29"
+        ]
+    },
+    "T29":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click",
+        "next":[
+            "T330"
+        ]
+    },
+    "T330":{
+        "action":"Click",
+        "next":[
+            "T331"
+        ]
+    },
+    "T331":{
+        "action":"Swipe",
+        "begin":[300,300,40,40],
+        "end":  [400,300,40,40],
+        "duration":600,
+        "next":[
+            "T30"
+        ]
+    },
+    "T30":{
+        "recognition": "OCR", 
+        "expected": "灌木林", 
+        "action": "Click",
+        "next":[
+            "T31"
+        ]
+
+    },
+    "T31":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T32"
+        ]
+    },
+    "T32":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T33"
+        ]
+    },
+    "T33":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T34"
+        ]
+    },
+    "T34":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click",
+        "next":[
+            "T35"
+        ]
+    },
+    "T35":{
+        "recognition": "OCR", 
+        "expected": "行动结束", 
+        "action": "Click",
+        "next":[
+            "T36"
+        ]
+    },
+    "T36":{
+        "recognition": "OCR", 
+        "expected": "聚羽之地", 
+        "action": "Click",
+        "next":[
+            "T37"
+        ]
+    },
+    "T37":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T38"
+        ]
+    },
+    "T38":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T39"
+        ]
+    },
+    "T39":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/确认.png",            
+        "action": "Click",
+        "next":[
+            "T40"
+        ]
+    },
+    "T40":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T41"
+        ]
+    },
+    "T41":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click",
+        "next":[
+            "T42"
+        ]
+
+    },
+    "T42":{
+        "recognition": "OCR", 
+        "expected": "行动结束", 
+        "action": "Click",
+        "next":[
+            "T43"
+        ]
+    },
+    "T43":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/下一日.png",            
+        "action": "Click",
+        "next":[
+            "T44"
+        ]
+    },
+    "T44":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/继续.png",            
+        "action": "Click",
+        "next":[
+            "T45"
+        ]
+    },
+    "T45":{
+        "recognition": "OCR", 
+        "expected": "消磨时间", 
+        "action": "Click",
+        "next":[
+            "T46"
+        ]
+    },
+    "T46":{
+        "recognition": "OCR", 
+        "expected": "确认", 
+        "action": "Click",
+        "next":[
+            "T47"
+        ]
+    },
+    "T47":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/继续.png",            
+        "action": "Click",
+        "next":[
+            "T48"
+        ]
+    },
+    "T48":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/第三日.png",            
+        "action": "Click",
+        "next":[
+            "T49"
+        ]
+    },
+    "T49":{
+        "recognition": "OCR", 
+        "expected": "消磨时间", 
+        "action": "Click",
+        "next":[
+            "T50"
+        ]
+    },
+    "T50":{
+        "recognition": "OCR", 
+        "expected": "确认", 
+        "action": "Click",
+        "next":[
+            "T51"
+        ]
+    },
+    "T51":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/下一日.png",            
+        "action": "Click",
+        "next":[
+            "T52"
+        ]
+    },
+    "T52":{
+        "recognition": "OCR", 
+        "expected": "点击", 
+        "action": "Click",
+        "next":[
+            "T53"
+        ]
+    },
+    "T53":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/开启今日.png",            
+        "action": "Click",
+        "next":[
+            "T54"
+        ]
+    },
+    "T54":{
+        "recognition": "OCR", 
+        "expected": "陌域", 
+        "action": "Click",
+        "next":[
+            "T55"
+        ]
+    },
+    "T55":{
+        "recognition": "OCR", 
+        "expected": "提升", 
+        "action": "Click",
+        "next":[
+            "T56"
+        ]
+    },
+    "T56":{
+        "recognition": "OCR", 
+        "expected": "看看", 
+        "action": "Click",
+        "next":[
+            "T57"
+        ]
+    },
+    "T57":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/菜单.png",            
+        "action": "Click",
+        "next":[
+            "T58"
+        ]
+    },
+    "T58":{
+        "recognition": "OCR", 
+        "expected": "删除存档", 
+        "action": "Click",
+        "next":[
+            "T59"
+        ]
+    },
+    "T59":{
+        "action": "Click",
+        "target":[925,464,121,36],
+        "next":[
+            "T60"
+        ]
+    },
+    "T60":{
+        "action": "Click",
+        "target":[925,464,121,36]
+    }
+    
+}

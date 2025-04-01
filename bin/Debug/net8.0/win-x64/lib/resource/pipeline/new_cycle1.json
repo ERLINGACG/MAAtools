@@ -1,0 +1,24 @@
+{
+    "StartNewCycle2": {
+        "next": [
+            "T5204",
+            "T5205"
+        ]
+     },
+     "T5204":{
+        "recognition": "OCR",           
+        "expected": "生息日",            
+        "action": "Click",
+        "next":[
+            "T5205"
+        ]
+    },
+    "T5205":{
+        "recognition": "OCR",           
+        "expected": "开启今日",            
+        "action": "Click"
+    }
+    
+
+
+}

@@ -1,0 +1,9 @@
+{
+    "MyTask4": {
+        "recognition": "OCR",           
+        "expected":"明日方舟",            
+        "action": "Click",
+        "timeout": 5000
+    }
+    
+}

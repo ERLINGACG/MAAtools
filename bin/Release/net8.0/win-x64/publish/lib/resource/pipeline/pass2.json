@@ -1,0 +1,16 @@
+{
+    "T12": {
+            "recognition": "FeatureMatch",           
+            "template": "Arknights/gamestart/pass1.png",            
+            "action": "Click",
+            "next":[
+                
+                "T213"
+            ]
+    },
+    "T213": {
+        "recognition": "FeatureMatch",           
+            "template": "Arknights/gamestart/开始行动.png",            
+            "action": "Click"
+    }
+}

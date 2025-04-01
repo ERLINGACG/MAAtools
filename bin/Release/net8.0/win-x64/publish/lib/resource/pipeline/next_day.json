@@ -1,0 +1,137 @@
+{
+   
+    "T44":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/第二日.png",            
+        "action": "Click",
+        "next":[
+            "T44",
+            "T45"
+        ]
+    },
+    "T45":{
+        "recognition": "OCR",           
+        "expected": "消磨时间",            
+        "action": "Click",
+        "next":[
+            "T46"
+        ]
+    },
+    "T46":{
+        "recognition": "OCR", 
+        "expected": "确认", 
+        "action": "Click",
+        "next":[
+            "T47"
+        ]
+    },
+    "T47":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/下一日.png",            
+        "action": "Click",
+        "next":[
+            "T48"
+        ]
+    },
+
+    "T48":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/第三日.png",            
+        "action": "Click",
+        "next":[
+            "T49"
+        ]
+    },
+    "T49":{
+        "recognition": "OCR", 
+        "expected": "消磨时间", 
+        "action": "Click",
+        "next":[
+            "T50"
+        ]
+    },
+    "T50":{
+        "recognition": "OCR", 
+        "expected": "确认", 
+        "action": "Click",
+        "next":[
+            "T51"
+        ]
+    },
+    "T51":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/下一日.png",            
+        "action": "Click",
+        "next":[
+            "T52"
+        ]
+    },
+    "T52":{
+        "recognition": "OCR", 
+        "expected": "点击", 
+        "action": "Click",
+        "next":[
+            "T53"
+        ]
+    },
+    "T53":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/开启今日.png",            
+        "action": "Click",
+        "next":[
+            "T54"
+        ]
+    },
+    "T54":{
+        "recognition": "OCR", 
+        "expected": "陌域", 
+        "action": "Click",
+        "next":[
+            "T55"
+        ]
+    },
+    "T55":{
+        "recognition": "OCR", 
+        "expected": "提升", 
+        "action": "Click",
+        "next":[
+            "T56"
+        ]
+    },
+    "T56":{
+        "recognition": "OCR", 
+        "expected": "看看", 
+        "action": "Click",
+        "next":[
+            "T57"
+        ]
+    },
+    "T57":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/菜单.png",            
+        "action": "Click",
+        "next":[
+            "T58"
+        ]
+    },
+    "T58":{
+        "recognition": "OCR", 
+        "expected": "删除存档", 
+        "action": "Click",
+        "next":[
+            "T59"
+        ]
+    },
+    "T59":{
+        "action": "Click",
+        "target":[925,464,121,36],
+        "next":[
+            "T60"
+        ]
+    },
+    "T60":{
+        "action": "Click",
+        "target":[925,464,121,36]
+    }
+
+}

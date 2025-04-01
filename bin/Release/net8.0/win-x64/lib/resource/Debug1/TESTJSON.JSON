@@ -1,0 +1,7 @@
+{
+    "T2001": {
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/继续.png",            
+        "action": "Click"
+    }
+}

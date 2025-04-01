@@ -1,0 +1,49 @@
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] ----------------------------- 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] MAA Process Start 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] Version v3.0.4 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] Built at Feb 17 2025 06:43:04 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] Windows x64 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] Working E:/MAAtool/Csharp/GUI/MAAtools 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] Logging ./debug/maa.log 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][Logger] ----------------------------- 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L33][MaaNS::GlobalOptionMgr::set_log_dir] | leave, 0ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 1ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 1ms 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=2] [value=00007FFE7B1BE059] [val_size=1] | enter 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=2] [value=00007FFE7B1BE059] [val_size=1] | enter 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | enter 
+[2025-03-25 22:56:17.491][INF][Px37360][Tx25808][GlobalOptionMgr.cpp][L56][MaaNS::GlobalOptionMgr::set_save_draw] Set save draw [save_draw_=false] 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | leave, 0ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=3] [value=00007FFE7B1BE05A] [val_size=1] | enter 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=3] [value=00007FFE7B1BE05A] [val_size=1] | enter 
+[2025-03-25 22:56:17.491][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | enter 
+[2025-03-25 22:56:17.491][INF][Px37360][Tx25808][GlobalOptionMgr.cpp][L88][MaaNS::GlobalOptionMgr::set_recording] Set recording [recording_=false] 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | leave, 0ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-03-25 22:56:17.491][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=4] [value=00007FFE7B1BE05C] [val_size=4] | enter 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=4] [value=00007FFE7B1BE05C] [val_size=4] | enter 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | enter 
+[2025-03-25 22:56:17.492][INF][Px37360][Tx25808][GlobalOptionMgr.cpp][L104][MaaNS::GlobalOptionMgr::set_stdout_level] Set log stdout level [level=2] 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | leave, 0ms 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=5] [value=00007FFE7B1BE060] [val_size=1] | enter 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=5] [value=00007FFE7B1BE060] [val_size=1] | enter 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | enter 
+[2025-03-25 22:56:17.492][INF][Px37360][Tx25808][GlobalOptionMgr.cpp][L72][MaaNS::GlobalOptionMgr::set_show_hit_draw] Set show_hit_draw [show_hit_draw_=false] 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | leave, 0ms 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionConfig.cpp][L83][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] [bret=true] 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionConfig.cpp][L67][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] | leave, 1ms 
+[2025-03-25 22:56:17.492][TRC][Px37360][Tx25808][GlobalOptionConfig.cpp][L17][MaaNS::ToolkitNS::GlobalOptionConfig::init] | leave, 14ms 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=6] [value=000001C6A772F018] [val_size=1] | enter 
+[2025-03-25 22:56:17.492][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=6] [value=000001C6A772F018] [val_size=1] | enter 
+[2025-03-25 22:56:17.493][DBG][Px37360][Tx25808][GlobalOptionMgr.cpp][L113][MaaNS::GlobalOptionMgr::set_debug_mode] | enter 
+[2025-03-25 22:56:17.493][INF][Px37360][Tx25808][GlobalOptionMgr.cpp][L122][MaaNS::GlobalOptionMgr::set_debug_mode] Set debug message [debug_mode_=true] 
+[2025-03-25 22:56:17.493][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L113][MaaNS::GlobalOptionMgr::set_debug_mode] | leave, 0ms 
+[2025-03-25 22:56:17.493][TRC][Px37360][Tx25808][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-03-25 22:56:17.493][TRC][Px37360][Tx25808][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 

@@ -1,0 +1,8 @@
+{
+    "MyTask1": {
+        "recognition": "TemplateMatch",           
+        "template":"明日方舟.png",            
+        "action": "Click"
+    }
+    
+}

@@ -1,0 +1,24 @@
+{
+    "Z44":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/第二日.png",            
+        "action": "Click",
+        "next":[
+            "Z45"
+        ]
+    },
+    "Z45":{
+        "recognition": "OCR",           
+        "expected": "消磨时间",            
+        "action": "Click",
+        "next":[
+            "Z46"
+        ]
+    },
+    "Z46":{
+        "recognition": "OCR", 
+        "expected": "确认", 
+        "action": "Click"
+        
+    }
+}

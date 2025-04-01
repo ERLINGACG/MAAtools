@@ -1,0 +1,5 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MAAtools.Views.Page3">
+             <TextBlock Text="敬请期待3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+</UserControl>

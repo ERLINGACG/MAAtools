@@ -1,0 +1,8 @@
+{
+    "MyTask10": {
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/开始演算.png",            
+        "action": "Click"
+
+    }
+}

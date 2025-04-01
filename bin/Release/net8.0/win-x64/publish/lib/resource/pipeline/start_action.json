@@ -1,0 +1,40 @@
+{
+"T31":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T32"
+        ]
+    },
+    "T32":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T33"
+        ]
+    },
+    "T33":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T33",
+            "T34"
+        ]
+    },
+    "T34":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click",
+        "next":[
+            "T35"
+        ]
+    },
+    "T35":{
+        "recognition": "OCR", 
+        "expected": "行动结束", 
+        "action": "Click"
+    }
+}

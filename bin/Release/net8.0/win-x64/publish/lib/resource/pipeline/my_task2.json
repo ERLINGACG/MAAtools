@@ -1,0 +1,45 @@
+{   
+    "MyTask5": {
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/login/明日方舟.png",            
+        "action": "Click",
+        "next":[
+            "MyTask6"
+        ]
+
+    },
+    "MyTask6": {
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/login/开始.png",            
+        "action": "Click",
+        "timeout":30000,
+        "next":[
+            "MyTask7"
+        ]
+    },
+    "MyTask7": {
+        "recognition": "OCR",
+        "expected":"开始唤醒",
+        "action": "Click",
+        "next":[
+            "MyTask8"
+        ]
+    },
+    "MyTask8": {
+        "recognition": "OCR",
+        "expected":"终端",
+        "action": "Click",
+        "timeout":30000,
+        "next":[
+            "MyTask9"
+        ]
+    },
+    "MyTask9": {
+        "recognition": "OCR",
+        "expected":"沙洲遗闻",
+        "action": "Click"
+        
+    }
+    
+    
+}

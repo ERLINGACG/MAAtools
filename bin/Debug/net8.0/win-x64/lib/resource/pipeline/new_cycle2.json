@@ -1,0 +1,32 @@
+{
+    "StartNewCycle": {
+        "next": [
+            "T5207",
+            "T5208",
+            "T0209"
+        ]
+     },
+     "T5207":{
+        "recognition": "OCR",           
+        "expected": "陌域",            
+        "action": "Click",
+        "next": [
+            "T5208"
+        ]
+    },
+    "T5208":{
+        "recognition": "OCR",           
+        "expected": "提升",            
+        "action": "Click",
+        "next": [
+            "T0209"
+        ]
+
+    },
+    "T0209":{
+        "recognition": "OCR",           
+        "expected": "看看",            
+        "action": "Click"
+    }
+    
+}

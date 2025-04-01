@@ -1,0 +1,128 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MAAtools.Views.Page1"
+             xmlns:vm="using:MAAtools.ViewModels"
+             x:DataType="vm:Page1ViewModel" 
+             >
+             
+    <Grid x:Name="Page1_MainGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>   
+
+            
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="Page1_Grid0"   Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                    <!-- 定义布局的行 -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" /> <!-- 边框内容 -->
+                        <RowDefinition Height="Auto" /> <!-- 开始按钮 -->
+                        <RowDefinition Height="Auto" /> <!-- 结束按钮 -->
+                    </Grid.RowDefinitions>
+
+                    <!-- 第一行：包含边框 -->
+                    <Border BorderBrush="Lightgray" Background="Gray" BorderThickness="2" CornerRadius="5" Padding="5" Grid.Row="0">
+                        <Grid>
+                            <!-- 定义2列 -->
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" /> <!-- 左侧复选框 -->
+                                <ColumnDefinition Width="Auto" /> <!-- 右侧按钮 -->
+                            </Grid.ColumnDefinitions>
+
+                            <!-- 左侧复选框 -->
+                            <StackPanel x:Name="Page1_taks_list" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="0" Spacing="5">
+                                <CheckBox x:Name="Page1_task1" Content="任务1"  IsChecked="{Binding IsTask1Checked, Mode=TwoWay}"/>
+                                <CheckBox x:Name="Page1_task2" Content="任务2"  IsChecked="{Binding IsTask2Checked, Mode=TwoWay}"/>
+                                <CheckBox x:Name="Page1_task3" Content="任务3"  IsChecked="{Binding IsTask3Checked, Mode=TwoWay}"/>
+                                <CheckBox x:Name="Page1_task4" Content="任务4"  IsChecked="{Binding IsTask4Checked, Mode=TwoWay}"/>
+                                <CheckBox x:Name="Page1_task5" Content="任务5"  IsChecked="{Binding IsTask5Checked, Mode=TwoWay}"/>
+                            </StackPanel>
+                            <Button Grid.Column="0" Content="全部选中" VerticalAlignment="Bottom" HorizontalAlignment="Left" Command="{Binding Checked_All}" />
+
+                            <!-- 右侧按钮 -->
+                            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Spacing="5">
+                                <Button Content="任务1" />
+                                <Button Content="任务2" />
+                                <Button Content="任务3" />
+                                <Button Content="任务4" />
+                                <Button Content="任务5" />
+                            </StackPanel>
+                            
+                            <Button Grid.Column="1" Content="全部取消" VerticalAlignment="Bottom" HorizontalAlignment="Right" Command="{Binding Unchecked_All}" />
+                        </Grid>
+                    </Border>
+
+                    <!-- 第二行：开始按钮 -->
+                    <!-- <TextBlock Text="{Binding CPUUsage}"/> -->
+                    <Button Content="开始" Width="160" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5" Grid.Row="1" Command="{Binding StartGame}"   IsEnabled="{Binding !IsBusy}"/>
+                    <Button Content="结束" Width="160" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5" Grid.Row="2" Command="{Binding ClickCommand}" />
+         </Grid>
+
+
+        <Grid x:Name="Page1_Grid1"   Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+            <Border BorderBrush="Lightgray" Background="Gray" 
+                    BorderThickness="2" CornerRadius="5" Padding="5">
+                    <TextBlock Text="当前任务：" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" />
+            </Border>
+        </Grid>
+        
+        
+        <Grid x:Name="Page1_Grid2"   Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <Border BorderBrush="Lightgray" Background="Gray" 
+                        BorderThickness="2" CornerRadius="5" Padding="5">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" /> <!-- 左侧复选框 -->
+                                    <ColumnDefinition Width="Auto" /> <!-- 右侧按钮 -->
+                        </Grid.ColumnDefinitions>    
+                        <StackPanel  Grid.Column="0">
+                            <TextBlock Text="CPU使用率" />
+                        </StackPanel>
+
+                        <StackPanel  Grid.Column="1">
+                            <TextBlock Text="{Binding CPUUsage}" />
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border BorderBrush="Lightgray" Background="Gray" 
+                        BorderThickness="2" CornerRadius="5" Padding="5">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" /> <!-- 左侧复选框 -->
+                                    <ColumnDefinition Width="Auto" /> <!-- 右侧按钮 -->
+                        </Grid.ColumnDefinitions>    
+                        <StackPanel  Grid.Column="0">
+                            <TextBlock Text="可用内存：" />
+                        </StackPanel>
+
+                        <StackPanel  Grid.Column="1">
+                            <TextBlock Text="{Binding MemoryUsage}" />
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </Grid>
+
+
+        </Grid>
+
+
+    </Grid>
+</UserControl>

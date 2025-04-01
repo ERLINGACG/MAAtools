@@ -1,0 +1,11 @@
+<!-- Views/NoticeWindow.axaml -->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MAAtools.Views.NoticeWindow"
+        Title="系统公告"
+        Width="400"
+        Height="300">
+    <TextBlock Text="这是一个公告" 
+               TextWrapping="Wrap"
+               Margin="20"/>
+</Window>

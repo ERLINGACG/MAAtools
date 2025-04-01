@@ -1,0 +1,57 @@
+{
+    "T36":{
+        "recognition": "OCR", 
+        "expected": "聚羽之地", 
+        "action": "Click",
+        "next":[
+            "T37"
+        ]
+    },
+    "T37":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T38"
+        ]
+    },
+    "T38":{
+        "recognition": "OCR", 
+        "expected": "开始行动", 
+        "action": "Click",
+        "next":[
+            "T39"
+        ]
+    },
+    "T39":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/确认.png",            
+        "action": "Click",
+        "next":[
+            "T40"
+        ]
+    },
+    "T40":{
+        "recognition": "FeatureMatch",           
+        "template": "Arknights/gamestart/退出.png",            
+        "action": "Click",
+        "next":[
+            "T40",
+            "T41"
+        ]
+    },
+    "T41":{
+        "recognition": "OCR", 
+        "expected": "确认离开", 
+        "action": "Click",
+        "next":[
+            "T42"
+        ]
+
+    },
+    "T42":{
+        "recognition": "OCR", 
+        "expected": "行动结束", 
+        "action": "Click"
+    }
+}
