@@ -23,6 +23,12 @@ class MAA_API IMAAEntity_Tasker: public MAAEntity_Tasker{
          int   OCRClick(const char* expected,int timeout);     //期望字符串
          int   TemplateMatchClick(const char* Ttemplate,int timeout); //模板匹配
          int   FeatureMatchClick(const  char* Ftemplate,int timeout);
+
+        
+
+         int   Click(int x,int y,int h,int w);
+         int   Swipe(int x1,int y1,int x2,int y2,int timeout);
+         
          
 
 };     

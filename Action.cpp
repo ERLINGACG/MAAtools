@@ -3,7 +3,8 @@
 
 extern "C"{
     MAA_API void TestFunc1(IMAAEntity_Tasker* pTasker){
-         int result = pTasker->OCRClick("电池",2000);
+        //  int result = pTasker->OCRClick("电池",2000);
+        int result = pTasker->Click(1004,619,185,96);
     }
 
     MAA_API int Stratcalculation(IMAAEntity_Tasker* pTasker,int& stop_flag){      //开始演算

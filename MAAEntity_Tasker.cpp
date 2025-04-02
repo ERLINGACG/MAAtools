@@ -379,3 +379,44 @@ int IMAAEntity_Tasker::FeatureMatchClick(const char* Template_path,int timeout=1
     }
 
 }
+
+int IMAAEntity_Tasker::Click(int x,int y,int h,int w){
+    
+      #ifdef _WIN32
+       SetConsoleOutputCP(CP_UTF8); // 条件编译,设置控制台输出为UTF-8
+    #endif
+
+    std::cout<<x<<" "<<y<<" "<<h<<" "<<w<<std::endl;
+    MaaStringBuffer* detail_buffer = MaaStringBufferCreate();
+    MaaSize node_id_list_size=10;
+    std::vector<MaaNodeId> node_id_list(node_id_list_size);
+    MaaStatus status;
+    try{
+       std::stringstream ss;
+        ss << R"(
+        {
+            "ClickTask": {
+                "action": "Click",
+                "target": [)" 
+                << x << "," << y << "," << h << "," << w << R"(]
+            }
+        }
+        )";
+        std::string ORCtask_json = ss.str();
+        this->task_id = MaaTaskerPostTask(this->tasker_handle,
+            "ClickTask", //任务名
+            ORCtask_json.c_str());
+    MaaTaskerWait(this->tasker_handle,this->task_id);
+    MaaTaskerGetTaskDetail(
+             this->tasker_handle,
+             this->task_id,
+             detail_buffer,
+             node_id_list.data(),
+             &node_id_list_size,
+             &status
+    );
+        return status;
+    }catch(...){
+        return -1;
+    }
+}
