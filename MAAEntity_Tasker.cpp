@@ -353,16 +353,16 @@ int IMAAEntity_Tasker::FeatureMatchClick(const char* Template_path,int timeout=1
     try{
         std::string ORCtask_json = R"(
         {
-            "OCRTask": {
+            "FeatureMatchTask": {
                         "recognition": "FeatureMatch",           
-                        "expected": ")" + std::string(Template_path) + R"(",            
+                        "template": ")" + std::string(Template_path) + R"(",            
                         "action": "Click",
                         "timeout": )" + std::to_string(timeout) + R"(
                     }
         }
         )";
         this->task_id = MaaTaskerPostTask(this->tasker_handle,
-            "OCRTask", //任务名
+            "FeatureMatchTask", //任务名
             ORCtask_json.c_str());
     MaaTaskerWait(this->tasker_handle,this->task_id);
     MaaTaskerGetTaskDetail(

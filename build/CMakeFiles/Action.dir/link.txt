@@ -1,0 +1,3 @@
+E:\VScode\cmake\bin\cmake.exe -E rm -f CMakeFiles\Action.dir/objects.a
+E:\GCC\mingw64\bin\ar.exe qc CMakeFiles\Action.dir/objects.a @CMakeFiles\Action.dir\objects1.rsp
+E:\GCC\mingw64\bin\g++.exe -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -shared -o libAction.dll -Wl,--out-implib,libAction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\Action.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\Action.dir\linkLibs.rsp

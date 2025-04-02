@@ -85,7 +85,7 @@ extern "C" { //任务API
         return pTasker->TaskerInit();
     }
     MAA_API void PostTask(IMAAEntity_Tasker* pTasker,const char* task_path) {
-         char* temp = _strdup(task_path); 
+        char* temp = _strdup(task_path); 
         pTasker->PostTask(temp);
         free(temp);
     }

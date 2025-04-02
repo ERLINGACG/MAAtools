@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "MyProject",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "Action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Action-Release-f4b9c210ecf1ef9edbcb.json",
+					"name" : "Action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "MAACoreAPI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MAACoreAPI-Release-fd293568c129e5113d29.json",
+					"jsonFile" : "target-MAACoreAPI-Release-80957b7b25060ff7f731.json",
 					"name" : "MAACoreAPI",
 					"projectIndex" : 0
 				}

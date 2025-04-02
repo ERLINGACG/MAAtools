@@ -2,6 +2,18 @@
 	"entries" : 
 	[
 		{
+			"name" : "Action_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;MaaFramework;general;MaaToolkit;"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[

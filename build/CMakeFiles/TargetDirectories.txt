@@ -1,3 +1,4 @@
 E:/CPP_POJ/MAA2/build/CMakeFiles/MAACoreAPI.dir
+E:/CPP_POJ/MAA2/build/CMakeFiles/Action.dir
 E:/CPP_POJ/MAA2/build/CMakeFiles/edit_cache.dir
 E:/CPP_POJ/MAA2/build/CMakeFiles/rebuild_cache.dir

@@ -28,5 +28,35 @@
   "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DMAACoreAPI_EXPORTS -DMAA_API_EXPORT @CMakeFiles/MAACoreAPI.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\MAACoreAPI.dir\\Arknights.cpp.obj -c E:\\CPP_POJ\\MAA2\\Arknights.cpp",
   "file": "E:/CPP_POJ/MAA2/Arknights.cpp",
   "output": "CMakeFiles/MAACoreAPI.dir/Arknights.cpp.obj"
+},
+{
+  "directory": "E:/CPP_POJ/MAA2/build",
+  "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DAction_EXPORTS -DMAA_API_EXPORT @CMakeFiles/Action.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\Action.dir\\Action.cpp.obj -c E:\\CPP_POJ\\MAA2\\Action.cpp",
+  "file": "E:/CPP_POJ/MAA2/Action.cpp",
+  "output": "CMakeFiles/Action.dir/Action.cpp.obj"
+},
+{
+  "directory": "E:/CPP_POJ/MAA2/build",
+  "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DAction_EXPORTS -DMAA_API_EXPORT @CMakeFiles/Action.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\Action.dir\\MAACoreAPI.cpp.obj -c E:\\CPP_POJ\\MAA2\\MAACoreAPI.cpp",
+  "file": "E:/CPP_POJ/MAA2/MAACoreAPI.cpp",
+  "output": "CMakeFiles/Action.dir/MAACoreAPI.cpp.obj"
+},
+{
+  "directory": "E:/CPP_POJ/MAA2/build",
+  "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DAction_EXPORTS -DMAA_API_EXPORT @CMakeFiles/Action.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\Action.dir\\MAAEntity_Tasker.cpp.obj -c E:\\CPP_POJ\\MAA2\\MAAEntity_Tasker.cpp",
+  "file": "E:/CPP_POJ/MAA2/MAAEntity_Tasker.cpp",
+  "output": "CMakeFiles/Action.dir/MAAEntity_Tasker.cpp.obj"
+},
+{
+  "directory": "E:/CPP_POJ/MAA2/build",
+  "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DAction_EXPORTS -DMAA_API_EXPORT @CMakeFiles/Action.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\Action.dir\\MAAEntity_Controller.cpp.obj -c E:\\CPP_POJ\\MAA2\\MAAEntity_Controller.cpp",
+  "file": "E:/CPP_POJ/MAA2/MAAEntity_Controller.cpp",
+  "output": "CMakeFiles/Action.dir/MAAEntity_Controller.cpp.obj"
+},
+{
+  "directory": "E:/CPP_POJ/MAA2/build",
+  "command": "E:\\GCC\\mingw64\\bin\\g++.exe -DAction_EXPORTS -DMAA_API_EXPORT @CMakeFiles/Action.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -flto -march=native -flto -fno-fat-lto-objects -O3 -flto -march=native -o CMakeFiles\\Action.dir\\MAAEntity_Resource.cpp.obj -c E:\\CPP_POJ\\MAA2\\MAAEntity_Resource.cpp",
+  "file": "E:/CPP_POJ/MAA2/MAAEntity_Resource.cpp",
+  "output": "CMakeFiles/Action.dir/MAAEntity_Resource.cpp.obj"
 }
 ]

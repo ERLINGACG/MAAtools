@@ -128,6 +128,43 @@ MAACoreAPI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/build
 .PHONY : MAACoreAPI/fast
 
+#=============================================================================
+# Target rules for targets named Action
+
+# Build rule for target.
+Action: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Action
+.PHONY : Action
+
+# fast build rule for target.
+Action/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/build
+.PHONY : Action/fast
+
+Action.obj: Action.cpp.obj
+.PHONY : Action.obj
+
+# target to build an object file
+Action.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/Action.cpp.obj
+.PHONY : Action.cpp.obj
+
+Action.i: Action.cpp.i
+.PHONY : Action.i
+
+# target to preprocess a source file
+Action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/Action.cpp.i
+.PHONY : Action.cpp.i
+
+Action.s: Action.cpp.s
+.PHONY : Action.s
+
+# target to generate assembly for a file
+Action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/Action.cpp.s
+.PHONY : Action.cpp.s
+
 Arknights.obj: Arknights.cpp.obj
 .PHONY : Arknights.obj
 
@@ -158,6 +195,7 @@ MAACoreAPI.obj: MAACoreAPI.cpp.obj
 # target to build an object file
 MAACoreAPI.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAACoreAPI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAACoreAPI.cpp.obj
 .PHONY : MAACoreAPI.cpp.obj
 
 MAACoreAPI.i: MAACoreAPI.cpp.i
@@ -166,6 +204,7 @@ MAACoreAPI.i: MAACoreAPI.cpp.i
 # target to preprocess a source file
 MAACoreAPI.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAACoreAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAACoreAPI.cpp.i
 .PHONY : MAACoreAPI.cpp.i
 
 MAACoreAPI.s: MAACoreAPI.cpp.s
@@ -174,6 +213,7 @@ MAACoreAPI.s: MAACoreAPI.cpp.s
 # target to generate assembly for a file
 MAACoreAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAACoreAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAACoreAPI.cpp.s
 .PHONY : MAACoreAPI.cpp.s
 
 MAAEntity_Controller.obj: MAAEntity_Controller.cpp.obj
@@ -182,6 +222,7 @@ MAAEntity_Controller.obj: MAAEntity_Controller.cpp.obj
 # target to build an object file
 MAAEntity_Controller.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Controller.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Controller.cpp.obj
 .PHONY : MAAEntity_Controller.cpp.obj
 
 MAAEntity_Controller.i: MAAEntity_Controller.cpp.i
@@ -190,6 +231,7 @@ MAAEntity_Controller.i: MAAEntity_Controller.cpp.i
 # target to preprocess a source file
 MAAEntity_Controller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Controller.cpp.i
 .PHONY : MAAEntity_Controller.cpp.i
 
 MAAEntity_Controller.s: MAAEntity_Controller.cpp.s
@@ -198,6 +240,7 @@ MAAEntity_Controller.s: MAAEntity_Controller.cpp.s
 # target to generate assembly for a file
 MAAEntity_Controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Controller.cpp.s
 .PHONY : MAAEntity_Controller.cpp.s
 
 MAAEntity_Resource.obj: MAAEntity_Resource.cpp.obj
@@ -206,6 +249,7 @@ MAAEntity_Resource.obj: MAAEntity_Resource.cpp.obj
 # target to build an object file
 MAAEntity_Resource.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Resource.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Resource.cpp.obj
 .PHONY : MAAEntity_Resource.cpp.obj
 
 MAAEntity_Resource.i: MAAEntity_Resource.cpp.i
@@ -214,6 +258,7 @@ MAAEntity_Resource.i: MAAEntity_Resource.cpp.i
 # target to preprocess a source file
 MAAEntity_Resource.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Resource.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Resource.cpp.i
 .PHONY : MAAEntity_Resource.cpp.i
 
 MAAEntity_Resource.s: MAAEntity_Resource.cpp.s
@@ -222,6 +267,7 @@ MAAEntity_Resource.s: MAAEntity_Resource.cpp.s
 # target to generate assembly for a file
 MAAEntity_Resource.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Resource.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Resource.cpp.s
 .PHONY : MAAEntity_Resource.cpp.s
 
 MAAEntity_Tasker.obj: MAAEntity_Tasker.cpp.obj
@@ -230,6 +276,7 @@ MAAEntity_Tasker.obj: MAAEntity_Tasker.cpp.obj
 # target to build an object file
 MAAEntity_Tasker.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Tasker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Tasker.cpp.obj
 .PHONY : MAAEntity_Tasker.cpp.obj
 
 MAAEntity_Tasker.i: MAAEntity_Tasker.cpp.i
@@ -238,6 +285,7 @@ MAAEntity_Tasker.i: MAAEntity_Tasker.cpp.i
 # target to preprocess a source file
 MAAEntity_Tasker.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Tasker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Tasker.cpp.i
 .PHONY : MAAEntity_Tasker.cpp.i
 
 MAAEntity_Tasker.s: MAAEntity_Tasker.cpp.s
@@ -246,6 +294,7 @@ MAAEntity_Tasker.s: MAAEntity_Tasker.cpp.s
 # target to generate assembly for a file
 MAAEntity_Tasker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/MAAEntity_Tasker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/MAAEntity_Tasker.cpp.s
 .PHONY : MAAEntity_Tasker.cpp.s
 
 # Help Target
@@ -256,7 +305,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Action
 	@echo ... MAACoreAPI
+	@echo ... Action.obj
+	@echo ... Action.i
+	@echo ... Action.s
 	@echo ... Arknights.obj
 	@echo ... Arknights.i
 	@echo ... Arknights.s

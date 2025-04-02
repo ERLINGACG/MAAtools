@@ -1,0 +1,1 @@
+  -LE:/CPP_POJ/MAA2/./lib  -lMaaFramework -lMaaToolkit -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

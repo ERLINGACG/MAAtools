@@ -63,10 +63,12 @@ CMAKE_BINARY_DIR = E:\CPP_POJ\MAA2\build
 
 # The main recursive "all" target.
 all: CMakeFiles/MAACoreAPI.dir/all
+all: CMakeFiles/Action.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/MAACoreAPI.dir/codegen
+codegen: CMakeFiles/Action.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,6 +77,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/MAACoreAPI.dir/clean
+clean: CMakeFiles/Action.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -84,7 +87,7 @@ clean: CMakeFiles/MAACoreAPI.dir/clean
 CMakeFiles/MAACoreAPI.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MAACoreAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target MAACoreAPI"
 .PHONY : CMakeFiles/MAACoreAPI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -101,13 +104,45 @@ MAACoreAPI: CMakeFiles/MAACoreAPI.dir/rule
 # codegen rule for target.
 CMakeFiles/MAACoreAPI.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target MAACoreAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=7,8,9,10,11,12 "Finished codegen for target MAACoreAPI"
 .PHONY : CMakeFiles/MAACoreAPI.dir/codegen
 
 # clean rule for target.
 CMakeFiles/MAACoreAPI.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MAACoreAPI.dir\build.make CMakeFiles/MAACoreAPI.dir/clean
 .PHONY : CMakeFiles/MAACoreAPI.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Action.dir
+
+# All Build rule for target.
+CMakeFiles/Action.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Action"
+.PHONY : CMakeFiles/Action.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Action.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CPP_POJ\MAA2\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Action.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CPP_POJ\MAA2\build\CMakeFiles 0
+.PHONY : CMakeFiles/Action.dir/rule
+
+# Convenience name for target.
+Action: CMakeFiles/Action.dir/rule
+.PHONY : Action
+
+# codegen rule for target.
+CMakeFiles/Action.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\CPP_POJ\MAA2\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target Action"
+.PHONY : CMakeFiles/Action.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Action.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Action.dir\build.make CMakeFiles/Action.dir/clean
+.PHONY : CMakeFiles/Action.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
