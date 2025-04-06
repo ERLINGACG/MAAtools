@@ -420,3 +420,50 @@ int IMAAEntity_Tasker::Click(int x,int y,int h,int w){
         return -1;
     }
 }
+int IMAAEntity_Tasker::Swipe(
+   std::vector<int> begin,
+   std::vector<int> end,
+   int duration){
+    
+      #ifdef _WIN32
+       SetConsoleOutputCP(CP_UTF8); // 条件编译,设置控制台输出为UTF-8
+    #endif
+
+    // std::cout<<x1<<" "<<y1<<" "<<y2<<" "<<x2<<" "<<duration<<std::endl;
+    MaaStringBuffer* detail_buffer = MaaStringBufferCreate();
+    MaaSize node_id_list_size=10;
+    std::vector<MaaNodeId> node_id_list(node_id_list_size);
+    MaaStatus status;
+    try{
+       std::stringstream ss;
+        ss << R"(
+        {
+            "SwipeTask": {
+                "action": "Swipe",
+                "begin": [)" 
+                << begin[0] << "," << begin[1] << "," <<begin[2]  << "," << begin[3] << R"(],
+                "end": [)" 
+                << end[0] << "," << end[1] << "," << end[2] << "," << end[3] << R"(],
+                "duration": )" << duration << R"(
+
+            }
+        }
+        )";
+        std::string ORCtask_json = ss.str();
+        this->task_id = MaaTaskerPostTask(this->tasker_handle,
+            "SwipeTask", //任务名
+            ORCtask_json.c_str());
+    MaaTaskerWait(this->tasker_handle,this->task_id);
+    MaaTaskerGetTaskDetail(
+             this->tasker_handle,
+             this->task_id,
+             detail_buffer,
+             node_id_list.data(),
+             &node_id_list_size,
+             &status
+    );
+        return status;
+    }catch(...){
+        return -1;
+    }
+}

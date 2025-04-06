@@ -27,7 +27,16 @@ class MAA_API IMAAEntity_Tasker: public MAAEntity_Tasker{
         
 
          int   Click(int x,int y,int h,int w);
-         int   Swipe(int x1,int y1,int x2,int y2,int timeout);
+        //  int   Swipe(int x1,
+        //              int y1,
+        //              int x2,
+        //              int y2,
+        //              int h1,
+        //              int w1,
+        //              int h2,
+        //              int w2,
+        //              int duration);
+        int   Swipe(std::vector<int> StadPoints, std::vector<int> Endpoints,int duration);
          
          
 

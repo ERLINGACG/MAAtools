@@ -4,7 +4,11 @@
 extern "C"{
     MAA_API void TestFunc1(IMAAEntity_Tasker* pTasker){
         //  int result = pTasker->OCRClick("电池",2000);
-        int result = pTasker->Click(1004,619,185,96);
+        // 
+        std::vector<int> beginPos = {300,300,40,40};
+        std::vector<int> endPos =   {500,300,40,40};
+        int result = pTasker->Swipe(beginPos, endPos, 200);
+        int result2 = pTasker->Click(1004,619,185,96);
     }
 
     MAA_API int Stratcalculation(IMAAEntity_Tasker* pTasker,int& stop_flag){      //开始演算
@@ -251,9 +255,39 @@ extern "C"{
             return result;
     }
 
-    // MAA_API int StratFight(){           //开始战斗
+   MAA_API int StratFight(IMAAEntity_Tasker* pTasker, int& stop_flag) {
+          
+            const std::vector<std::function<int(int t)>> Tsteps = {
+                { [&](int t){ return pTasker->OCRClick("灌木林", t); }, },
+                { [&](int t){ return pTasker->OCRClick("开始", t); }, },
+                { [&](int t){ return pTasker->OCRClick("开始", t); }, },
+                { [&](int t){ return pTasker->FeatureMatchClick("Arknights/gamestart/退出.png", t); }, },
+                { [&](int t){ return pTasker->OCRClick("确认离开", t); }, },
+                { [&](int t){ return pTasker->OCRClick("灌木林", t); }, },
+            };
+            constexpr int MAX_RETRY = 10;
+            constexpr int SUCCESS_CODE = 3000;
+            constexpr int TIMEOUT = 2000;
+            int last_result = 0;
+            int result = 0;
+    
+             for(int i=0;i<Tsteps.size();i++){
+                int start_loop =0;
+                    while(start_loop<=MAX_RETRY){
+                        result = Tsteps[i](TIMEOUT);
+                        if(stop_flag != 0) return -1;
+                        std::cout<<"fight step "<<i<<std::endl;
+                        start_loop++;
+                        if(result == SUCCESS_CODE){
+                            break;
+                        }
 
-    // }
+                    }
+                   
+            }
+           
+            return 0;
+    }
 
     // MAA_API int NextDay(){             //跳过天数
 
