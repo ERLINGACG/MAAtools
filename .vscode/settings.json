@@ -53,5 +53,9 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "filesystem": "cpp"
+    },
+    "marscode.chatLanguage": "cn",
+    "marscode.codeCompletionPro": {
+        "enableCodeCompletionPro": false
     }
 }

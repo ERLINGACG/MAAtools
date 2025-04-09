@@ -1,0 +1,1319 @@
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] ----------------------------- 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] MAA Process Start 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] Version v3.0.4 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] Built at Feb 17 2025 06:43:04 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] Windows x64 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] Working E:/CPP_POJ/MAA2 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] Logging ./debug/maa.log 
+[2025-04-09 11:47:29.145][DBG][Px21224][Tx48645][Logger] ----------------------------- 
+[2025-04-09 11:47:29.145][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L33][MaaNS::GlobalOptionMgr::set_log_dir] | leave, 1ms 
+[2025-04-09 11:47:29.146][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 1ms 
+[2025-04-09 11:47:29.146][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 1ms 
+[2025-04-09 11:47:29.146][DBG][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=2] [value=00007FFF9468E059] [val_size=1] | enter 
+[2025-04-09 11:47:29.146][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=2] [value=00007FFF9468E059] [val_size=1] | enter 
+[2025-04-09 11:47:29.146][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | enter 
+[2025-04-09 11:47:29.146][INF][Px21224][Tx48645][GlobalOptionMgr.cpp][L56][MaaNS::GlobalOptionMgr::set_save_draw] Set save draw [save_draw_=false] 
+[2025-04-09 11:47:29.146][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | leave, 0ms 
+[2025-04-09 11:47:29.146][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=3] [value=00007FFF9468E05A] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=3] [value=00007FFF9468E05A] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | enter 
+[2025-04-09 11:47:29.147][INF][Px21224][Tx48645][GlobalOptionMgr.cpp][L88][MaaNS::GlobalOptionMgr::set_recording] Set recording [recording_=false] 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=4] [value=00007FFF9468E05C] [val_size=4] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=4] [value=00007FFF9468E05C] [val_size=4] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | enter 
+[2025-04-09 11:47:29.147][INF][Px21224][Tx48645][GlobalOptionMgr.cpp][L104][MaaNS::GlobalOptionMgr::set_stdout_level] Set log stdout level [level=2] 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=5] [value=00007FFF9468E060] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=5] [value=00007FFF9468E060] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | enter 
+[2025-04-09 11:47:29.147][INF][Px21224][Tx48645][GlobalOptionMgr.cpp][L72][MaaNS::GlobalOptionMgr::set_show_hit_draw] Set show_hit_draw [show_hit_draw_=false] 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionConfig.cpp][L83][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] [bret=true] 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionConfig.cpp][L67][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] | leave, 2ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionConfig.cpp][L17][MaaNS::ToolkitNS::GlobalOptionConfig::init] | leave, 13ms 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=6] [value=00000291D64EB698] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=6] [value=00000291D64EB698] [val_size=1] | enter 
+[2025-04-09 11:47:29.147][DBG][Px21224][Tx48645][GlobalOptionMgr.cpp][L113][MaaNS::GlobalOptionMgr::set_debug_mode] | enter 
+[2025-04-09 11:47:29.147][INF][Px21224][Tx48645][GlobalOptionMgr.cpp][L122][MaaNS::GlobalOptionMgr::set_debug_mode] Set debug message [debug_mode_=true] 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L113][MaaNS::GlobalOptionMgr::set_debug_mode] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-04-09 11:47:29.147][TRC][Px21224][Tx48645][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-04-09 11:47:39.085][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L21][MaaNS::ToolkitNS::AdbDeviceFinder::find] | enter 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L174][MaaNS::list_processes] Process size: 327 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=172] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=784] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1164] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1348] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1368] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1444] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1476] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1500] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1640] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1656] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1664] 
+[2025-04-09 11:47:39.094][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1772] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1824] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1908] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1904] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1960] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1988] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1996] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1540] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1524] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1948] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2080] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2272] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2312] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2408] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2740] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2788] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2812] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2876] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2964] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2992] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3036] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3088] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3100] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3124] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3184] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3400] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3500] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3508] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3556] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3640] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3928] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4132] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4128] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4148] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4164] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4260] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4268] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4276] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4300] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4320] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4336] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4344] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4364] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4552] 
+[2025-04-09 11:47:39.095][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4800] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5016] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5048] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5172] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5204] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5228] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5292] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5368] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5460] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5504] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5620] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5628] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5648] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5804] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5816] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5824] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5840] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5852] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5884] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5984] 
+[2025-04-09 11:47:39.096][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6004] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6036] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6048] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6124] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6136] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5600] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6168] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6188] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6212] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6228] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6256] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6296] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6304] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6356] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6372] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6384] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6408] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6512] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6556] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6572] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6636] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6672] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6680] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6716] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6724] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6748] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6780] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6824] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6836] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6864] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6876] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6884] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7072] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7416] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7560] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7652] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7712] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8816] 
+[2025-04-09 11:47:39.097][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8956] 
+[2025-04-09 11:47:39.098][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8964] 
+[2025-04-09 11:47:39.098][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8784] 
+[2025-04-09 11:47:39.098][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10080] 
+[2025-04-09 11:47:39.098][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5980] 
+[2025-04-09 11:47:39.098][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10464] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10668] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10748] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10864] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10876] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10980] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10904] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11364] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11404] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11588] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=12172] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3464] 
+[2025-04-09 11:47:39.099][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=12396] 
+[2025-04-09 11:47:39.102][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=13268] 
+[2025-04-09 11:47:39.104][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=13708] 
+[2025-04-09 11:47:39.104][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=14740] 
+[2025-04-09 11:47:39.104][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=14836] 
+[2025-04-09 11:47:39.104][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15280] 
+[2025-04-09 11:47:39.112][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15188] 
+[2025-04-09 11:47:39.112][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10516] 
+[2025-04-09 11:47:39.112][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16464] 
+[2025-04-09 11:47:39.112][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17232] 
+[2025-04-09 11:47:39.114][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17780] 
+[2025-04-09 11:47:39.114][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6756] 
+[2025-04-09 11:47:39.114][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19492] 
+[2025-04-09 11:47:39.114][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19908] 
+[2025-04-09 11:47:39.114][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=20052] 
+[2025-04-09 11:47:39.118][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=21000] 
+[2025-04-09 11:47:39.118][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3804] 
+[2025-04-09 11:47:39.120][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=22392] 
+[2025-04-09 11:47:39.120][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16176] 
+[2025-04-09 11:47:39.121][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5864] 
+[2025-04-09 11:47:39.121][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19928] 
+[2025-04-09 11:47:39.121][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=20448] 
+[2025-04-09 11:47:39.124][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15760] 
+[2025-04-09 11:47:39.124][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6584] 
+[2025-04-09 11:47:39.124][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5324] 
+[2025-04-09 11:47:39.126][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10384] 
+[2025-04-09 11:47:39.126][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15664] 
+[2025-04-09 11:47:39.126][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17776] 
+[2025-04-09 11:47:39.128][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=18792] 
+[2025-04-09 11:47:39.130][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16632] 
+[2025-04-09 11:47:39.130][WRN][Px21224][Tx5407][PlatformWin32.cpp][L199][MaaNS::list_processes] Failed to EnumProcessModules [error=299] [pid=4692] 
+[2025-04-09 11:47:39.132][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4752] 
+[2025-04-09 11:47:39.132][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=30540] 
+[2025-04-09 11:47:39.133][DBG][Px21224][Tx5407][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16672] 
+[2025-04-09 11:47:39.133][INF][Px21224][Tx5407][AdbDeviceFinder.cpp][L129][MaaNS::ToolkitNS::AdbDeviceFinder::find_emulators] [result=["[emulator.name=LDPlayer] [emulator.process=11696 dnplayer.exe] "]] 
+[2025-04-09 11:47:39.133][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [adb_path=D:/LD/leidian/LDPlayer9/adb.exe] | enter 
+[2025-04-09 11:47:39.133][DBG][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] | enter 
+[2025-04-09 11:47:39.133][INF][Px21224][Tx5407][LibraryHolder.h][L64][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Loading library [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] 
+[2025-04-09 11:47:39.174][TRC][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 40ms 
+[2025-04-09 11:47:39.174][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-04-09 11:47:39.174][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.174][INF][Px21224][Tx5407][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.4 
+[2025-04-09 11:47:39.174][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-04-09 11:47:39.174][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.174][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-04-09 11:47:39.174][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.176][DBG][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=D:/LD/leidian/LDPlayer9/adb.exe] [adb_serial=] [screencap_methods=0] [input_methods=0] [config={}] [agent_path=] | enter 
+[2025-04-09 11:47:39.177][TRC][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 1ms 
+[2025-04-09 11:47:39.177][DBG][Px21224][Tx5407][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | enter 
+[2025-04-09 11:47:39.196][DBG][Px21224][Tx5407][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["devices"]] [child_.id()=29808] 
+[2025-04-09 11:47:39.227][DBG][Px21224][Tx5407][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=50] [duration=35ms] 
+[2025-04-09 11:47:39.227][DBG][Px21224][Tx5407][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+List of devices attached
+emulator-5554	device
+
+
+
+[2025-04-09 11:47:39.227][INF][Px21224][Tx5407][DeviceList.cpp][L53][MaaNS::CtrlUnitNs::DeviceList::request_devices] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.227][TRC][Px21224][Tx5407][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | leave, 50ms 
+[2025-04-09 11:47:39.227][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L169][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.227][DBG][Px21224][Tx5407][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] [handle=00000291BEED3890] | enter 
+[2025-04-09 11:47:39.227][TRC][Px21224][Tx5407][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] | leave, 0ms 
+[2025-04-09 11:47:39.227][TRC][Px21224][Tx5407][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] | leave, 93ms 
+[2025-04-09 11:47:39.227][INF][Px21224][Tx5407][AdbDeviceWin32Finder.cpp][L106][MaaNS::ToolkitNS::AdbDeviceWin32Finder::get_adb_config] LDPlayer cfg [adb_serial=emulator-5554] {
+    "extras": {
+        "ld": {
+            "enable": true,
+            "index": 0,
+            "path": "D:/LD/leidian/LDPlayer9",
+            "pid": 11696
+        }
+    }
+} 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L56][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] | enter 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] | enter 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] | enter 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][LibraryHolder.h][L60][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Already loaded [ref_count_=2] 
+[2025-04-09 11:47:39.243][TRC][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 0ms 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-04-09 11:47:39.243][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.243][INF][Px21224][Tx5407][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.4 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-04-09 11:47:39.243][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-04-09 11:47:39.243][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] [adb_serial=] [screencap_methods=0] [input_methods=0] [config={}] [agent_path=] | enter 
+[2025-04-09 11:47:39.243][TRC][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 0ms 
+[2025-04-09 11:47:39.243][DBG][Px21224][Tx5407][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | enter 
+[2025-04-09 11:47:39.247][DBG][Px21224][Tx5407][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=E:/VScode/ASDK/platform-tools/adb.exe] [args_=["devices"]] [child_.id()=2072] 
+[2025-04-09 11:47:39.295][DBG][Px21224][Tx5407][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=50] [duration=51ms] 
+[2025-04-09 11:47:39.295][DBG][Px21224][Tx5407][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+List of devices attached
+emulator-5554	device
+
+
+
+[2025-04-09 11:47:39.295][INF][Px21224][Tx5407][DeviceList.cpp][L53][MaaNS::CtrlUnitNs::DeviceList::request_devices] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.295][TRC][Px21224][Tx5407][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | leave, 51ms 
+[2025-04-09 11:47:39.295][DBG][Px21224][Tx5407][AdbDeviceFinder.cpp][L169][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.295][DBG][Px21224][Tx5407][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] [handle=00000291BEED3890] | enter 
+[2025-04-09 11:47:39.295][TRC][Px21224][Tx5407][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] | leave, 0ms 
+[2025-04-09 11:47:39.295][TRC][Px21224][Tx5407][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] | leave, 52ms 
+[2025-04-09 11:47:39.295][INF][Px21224][Tx5407][AdbDeviceFinder.cpp][L74][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] [result=["[device.name=E:/VScode/ASDK/platform-tools/adb.exe] [device.adb_path=\"E:\\\\VScode\\\\ASDK\\\\platform-tools\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n}] "]] 
+[2025-04-09 11:47:39.295][TRC][Px21224][Tx5407][AdbDeviceFinder.cpp][L56][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] | leave, 52ms 
+[2025-04-09 11:47:39.295][INF][Px21224][Tx5407][AdbDeviceFinder.cpp][L50][MaaNS::ToolkitNS::AdbDeviceFinder::find] [result=["[device.name=LDPlayer] [device.adb_path=\"D:\\\\LD\\\\leidian\\\\LDPlayer9\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n    \"extras\": {\n        \"ld\": {\n            \"enable\": true,\n            \"index\": 0,\n            \"path\": \"D:/LD/leidian/LDPlayer9\",\n            \"pid\": 11696\n        }\n    }\n}] ","[device.name=E:/VScode/ASDK/platform-tools/adb.exe] [device.adb_path=\"E:\\\\VScode\\\\ASDK\\\\platform-tools\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n}] "]] 
+[2025-04-09 11:47:39.296][TRC][Px21224][Tx5407][AdbDeviceFinder.cpp][L21][MaaNS::ToolkitNS::AdbDeviceFinder::find] | leave, 210ms 
+[2025-04-09 11:47:39.580][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L21][MaaNS::ToolkitNS::AdbDeviceFinder::find] | enter 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L174][MaaNS::list_processes] Process size: 327 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=172] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=784] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1164] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1348] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1368] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1444] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1476] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1500] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1640] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1656] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1664] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1772] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1824] 
+[2025-04-09 11:47:39.588][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1908] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1904] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1960] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1988] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1996] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1540] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1524] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=1948] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2080] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2272] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2312] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2408] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2740] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2788] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2812] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2876] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2964] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=2992] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3036] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3088] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3100] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3124] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3184] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3400] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3500] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3508] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3556] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3640] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3928] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4132] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4128] 
+[2025-04-09 11:47:39.589][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4148] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4164] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4260] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4268] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4276] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4300] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4320] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4336] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4344] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4364] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4552] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4800] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5016] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5048] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5172] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5204] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5228] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5292] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5368] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5460] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5504] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5620] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5628] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5648] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5804] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5816] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5824] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5840] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5852] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5884] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5984] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6004] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6036] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6048] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6124] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6136] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5600] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6168] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6188] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6212] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6228] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6256] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6296] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6304] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6356] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6372] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6384] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6408] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6512] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6556] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6572] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6636] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6672] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6680] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6716] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6724] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6748] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6780] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6824] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6836] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6864] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6876] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6884] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7072] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7416] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7560] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7652] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=7712] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8816] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8956] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8964] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=8784] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10080] 
+[2025-04-09 11:47:39.590][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5980] 
+[2025-04-09 11:47:39.591][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10464] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10668] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10748] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10864] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10876] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10980] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10904] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11364] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11404] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=11588] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=12172] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3464] 
+[2025-04-09 11:47:39.592][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=12396] 
+[2025-04-09 11:47:39.598][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=13268] 
+[2025-04-09 11:47:39.599][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=13708] 
+[2025-04-09 11:47:39.599][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=14740] 
+[2025-04-09 11:47:39.599][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=14836] 
+[2025-04-09 11:47:39.599][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15280] 
+[2025-04-09 11:47:39.602][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15188] 
+[2025-04-09 11:47:39.602][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10516] 
+[2025-04-09 11:47:39.602][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16464] 
+[2025-04-09 11:47:39.603][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17232] 
+[2025-04-09 11:47:39.607][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17780] 
+[2025-04-09 11:47:39.607][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6756] 
+[2025-04-09 11:47:39.607][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19492] 
+[2025-04-09 11:47:39.607][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19908] 
+[2025-04-09 11:47:39.607][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=20052] 
+[2025-04-09 11:47:39.610][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=21000] 
+[2025-04-09 11:47:39.610][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=3804] 
+[2025-04-09 11:47:39.614][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=22392] 
+[2025-04-09 11:47:39.615][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16176] 
+[2025-04-09 11:47:39.615][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5864] 
+[2025-04-09 11:47:39.615][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=19928] 
+[2025-04-09 11:47:39.615][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=20448] 
+[2025-04-09 11:47:39.616][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15760] 
+[2025-04-09 11:47:39.616][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=6584] 
+[2025-04-09 11:47:39.616][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=5324] 
+[2025-04-09 11:47:39.617][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=10384] 
+[2025-04-09 11:47:39.617][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=15664] 
+[2025-04-09 11:47:39.617][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=17776] 
+[2025-04-09 11:47:39.619][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=18792] 
+[2025-04-09 11:47:39.620][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16632] 
+[2025-04-09 11:47:39.620][WRN][Px21224][Tx63686][PlatformWin32.cpp][L199][MaaNS::list_processes] Failed to EnumProcessModules [error=299] [pid=4692] 
+[2025-04-09 11:47:39.622][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=4752] 
+[2025-04-09 11:47:39.622][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=30540] 
+[2025-04-09 11:47:39.623][DBG][Px21224][Tx63686][PlatformWin32.cpp][L191][MaaNS::list_processes] Failed to OpenProcess [error=5] [pid=16672] 
+[2025-04-09 11:47:39.623][INF][Px21224][Tx63686][AdbDeviceFinder.cpp][L129][MaaNS::ToolkitNS::AdbDeviceFinder::find_emulators] [result=["[emulator.name=LDPlayer] [emulator.process=11696 dnplayer.exe] "]] 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [adb_path=D:/LD/leidian/LDPlayer9/adb.exe] | enter 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] | enter 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][LibraryHolder.h][L60][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Already loaded [ref_count_=3] 
+[2025-04-09 11:47:39.624][TRC][Px21224][Tx63686][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 0ms 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-04-09 11:47:39.624][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.624][INF][Px21224][Tx63686][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.4 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-04-09 11:47:39.624][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-04-09 11:47:39.624][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=D:/LD/leidian/LDPlayer9/adb.exe] [adb_serial=] [screencap_methods=0] [input_methods=0] [config={}] [agent_path=] | enter 
+[2025-04-09 11:47:39.624][TRC][Px21224][Tx63686][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 0ms 
+[2025-04-09 11:47:39.624][DBG][Px21224][Tx63686][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | enter 
+[2025-04-09 11:47:39.628][DBG][Px21224][Tx63686][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["devices"]] [child_.id()=27516] 
+[2025-04-09 11:47:39.657][DBG][Px21224][Tx63686][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=50] [duration=33ms] 
+[2025-04-09 11:47:39.658][DBG][Px21224][Tx63686][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+List of devices attached
+emulator-5554	device
+
+
+
+[2025-04-09 11:47:39.658][INF][Px21224][Tx63686][DeviceList.cpp][L53][MaaNS::CtrlUnitNs::DeviceList::request_devices] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.658][TRC][Px21224][Tx63686][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | leave, 33ms 
+[2025-04-09 11:47:39.658][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L169][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.658][DBG][Px21224][Tx63686][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] [handle=00000291BEED3890] | enter 
+[2025-04-09 11:47:39.658][TRC][Px21224][Tx63686][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] | leave, 0ms 
+[2025-04-09 11:47:39.658][TRC][Px21224][Tx63686][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] | leave, 34ms 
+[2025-04-09 11:47:39.658][INF][Px21224][Tx63686][AdbDeviceWin32Finder.cpp][L106][MaaNS::ToolkitNS::AdbDeviceWin32Finder::get_adb_config] LDPlayer cfg [adb_serial=emulator-5554] {
+    "extras": {
+        "ld": {
+            "enable": true,
+            "index": 0,
+            "path": "D:/LD/leidian/LDPlayer9",
+            "pid": 11696
+        }
+    }
+} 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L56][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] | enter 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] | enter 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] | enter 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][LibraryHolder.h][L60][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Already loaded [ref_count_=4] 
+[2025-04-09 11:47:39.666][TRC][Px21224][Tx63686][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 0ms 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-04-09 11:47:39.666][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.666][INF][Px21224][Tx63686][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.4 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-04-09 11:47:39.666][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-04-09 11:47:39.666][TRC][Px21224][Tx63686][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=E:/VScode/ASDK/platform-tools/adb.exe] [adb_serial=] [screencap_methods=0] [input_methods=0] [config={}] [agent_path=] | enter 
+[2025-04-09 11:47:39.666][TRC][Px21224][Tx63686][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 0ms 
+[2025-04-09 11:47:39.666][DBG][Px21224][Tx63686][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | enter 
+[2025-04-09 11:47:39.669][DBG][Px21224][Tx63686][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=E:/VScode/ASDK/platform-tools/adb.exe] [args_=["devices"]] [child_.id()=30364] 
+[2025-04-09 11:47:39.700][DBG][Px21224][Tx63686][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=50] [duration=33ms] 
+[2025-04-09 11:47:39.700][DBG][Px21224][Tx63686][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+List of devices attached
+emulator-5554	device
+
+
+
+[2025-04-09 11:47:39.700][INF][Px21224][Tx63686][DeviceList.cpp][L53][MaaNS::CtrlUnitNs::DeviceList::request_devices] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.700][TRC][Px21224][Tx63686][DeviceList.cpp][L22][MaaNS::CtrlUnitNs::DeviceList::request_devices] | leave, 33ms 
+[2025-04-09 11:47:39.700][DBG][Px21224][Tx63686][AdbDeviceFinder.cpp][L169][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] [devices=["emulator-5554"]] 
+[2025-04-09 11:47:39.700][DBG][Px21224][Tx63686][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] [handle=00000291BEED3890] | enter 
+[2025-04-09 11:47:39.700][TRC][Px21224][Tx63686][AdbControlUnitAPI.cpp][L49][MaaAdbControlUnitDestroy] | leave, 0ms 
+[2025-04-09 11:47:39.700][TRC][Px21224][Tx63686][AdbDeviceFinder.cpp][L154][MaaNS::ToolkitNS::AdbDeviceFinder::find_serials_by_adb_command] | leave, 33ms 
+[2025-04-09 11:47:39.700][INF][Px21224][Tx63686][AdbDeviceFinder.cpp][L74][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] [result=["[device.name=E:/VScode/ASDK/platform-tools/adb.exe] [device.adb_path=\"E:\\\\VScode\\\\ASDK\\\\platform-tools\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n}] "]] 
+[2025-04-09 11:47:39.700][TRC][Px21224][Tx63686][AdbDeviceFinder.cpp][L56][MaaNS::ToolkitNS::AdbDeviceFinder::find_specified] | leave, 33ms 
+[2025-04-09 11:47:39.700][INF][Px21224][Tx63686][AdbDeviceFinder.cpp][L50][MaaNS::ToolkitNS::AdbDeviceFinder::find] [result=["[device.name=LDPlayer] [device.adb_path=\"D:\\\\LD\\\\leidian\\\\LDPlayer9\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n    \"extras\": {\n        \"ld\": {\n            \"enable\": true,\n            \"index\": 0,\n            \"path\": \"D:/LD/leidian/LDPlayer9\",\n            \"pid\": 11696\n        }\n    }\n}] ","[device.name=E:/VScode/ASDK/platform-tools/adb.exe] [device.adb_path=\"E:\\\\VScode\\\\ASDK\\\\platform-tools\\\\adb.exe\"] [device.serial=emulator-5554] [device.screencap_methods=18446744073709551559] [device.input_methods=18446744073709551607] [device.config={\n}] "]] 
+[2025-04-09 11:47:39.701][TRC][Px21224][Tx63686][AdbDeviceFinder.cpp][L21][MaaNS::ToolkitNS::AdbDeviceFinder::find] | leave, 120ms 
+[2025-04-09 11:47:40.411][DBG][Px21224][Tx5407][MaaController.cpp][L21][MaaAdbControllerCreate] [adb_path=D:\LD\leidian\LDPlayer9\adb.exe] [address=emulator-5554] [screencap_methods=18446744073709551559] [input_methods=18446744073709551607] [config={"extras": {"ld": {"enable": true, "index": 0, "path": "D:/LD/leidian/LDPlayer9", "pid": 11696}}}] [agent_path=E:\python\python3.12\Lib\site-packages\maa\../MaaAgentBinary] [notify=00000291D7060FC0] [notify_trans_arg=0000000000000000] | enter 
+[2025-04-09 11:47:40.412][DBG][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] | enter 
+[2025-04-09 11:47:40.412][INF][Px21224][Tx5407][LibraryHolder.h][L64][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Loading library [libname=E:/python/python3.12/Lib/site-packages/maa/bin/MaaAdbControlUnit] 
+[2025-04-09 11:47:40.412][TRC][Px21224][Tx5407][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 0ms 
+[2025-04-09 11:47:40.412][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-04-09 11:47:40.412][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:40.412][INF][Px21224][Tx5407][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.4 
+[2025-04-09 11:47:40.412][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-04-09 11:47:40.412][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:40.412][DBG][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-04-09 11:47:40.412][TRC][Px21224][Tx5407][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-04-09 11:47:40.412][DBG][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=D:\LD\leidian\LDPlayer9\adb.exe] [adb_serial=emulator-5554] [screencap_methods=18446744073709551559] [input_methods=18446744073709551607] [config={"extras": {"ld": {"enable": true, "index": 0, "path": "D:/LD/leidian/LDPlayer9", "pid": 11696}}}] [agent_path=E:\python\python3.12\Lib\site-packages\maa\../MaaAgentBinary] | enter 
+[2025-04-09 11:47:40.412][TRC][Px21224][Tx5407][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 0ms 
+[2025-04-09 11:47:40.413][DBG][Px21224][Tx5407][ControllerAgent.cpp][L16][MaaNS::ControllerNS::ControllerAgent::ControllerAgent] [notify=00000291D7060FC0] [notify_trans_arg=0000000000000000] | enter 
+[2025-04-09 11:47:40.413][TRC][Px21224][Tx5407][ControllerAgent.cpp][L16][MaaNS::ControllerNS::ControllerAgent::ControllerAgent] | leave, 0ms 
+[2025-04-09 11:47:40.413][TRC][Px21224][Tx5407][MaaController.cpp][L21][MaaAdbControllerCreate] | leave, 1ms 
+[2025-04-09 11:47:40.413][DBG][Px21224][Tx5407][MaaController.cpp][L132][MaaControllerPostConnection] [ctrl=00000291BD9D3940] | enter 
+[2025-04-09 11:47:40.413][TRC][Px21224][Tx5407][MaaController.cpp][L132][MaaControllerPostConnection] | leave, 0ms 
+[2025-04-09 11:47:40.413][DBG][Px21224][Tx52473][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | enter 
+[2025-04-09 11:47:40.418][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","settings get secure android_id"]] [child_.id()=22876] 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=18] [duration=79ms] 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+2423c4cca81b7f19
+
+
+[2025-04-09 11:47:40.493][TRC][Px21224][Tx52473][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | leave, 79ms 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "connect",
+    "ctrl_id": 400000001,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:40.493][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][GeneralControllerAgent.cpp][L22][MaaNS::ControllerNS::GeneralControllerAgent::_connect] | enter 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][Connection.cpp][L35][MaaNS::CtrlUnitNs::Connection::connect] | enter 
+[2025-04-09 11:47:40.493][DBG][Px21224][Tx52473][Connection.cpp][L64][MaaNS::CtrlUnitNs::Connection::test_connection] | enter 
+[2025-04-09 11:47:40.498][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","echo Hello MaaFw!"]] [child_.id()=26020] 
+[2025-04-09 11:47:40.529][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=14] [duration=35ms] 
+[2025-04-09 11:47:40.530][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+Hello MaaFw!
+
+
+[2025-04-09 11:47:40.530][TRC][Px21224][Tx52473][Connection.cpp][L64][MaaNS::CtrlUnitNs::Connection::test_connection] | leave, 35ms 
+[2025-04-09 11:47:40.530][TRC][Px21224][Tx52473][Connection.cpp][L35][MaaNS::CtrlUnitNs::Connection::connect] | leave, 35ms 
+[2025-04-09 11:47:40.530][INF][Px21224][Tx52473][ScreencapAgent.cpp][L50][MaaNS::CtrlUnitNs::ScreencapAgent::ScreencapAgent] [methods=18446744073709551559] [method_set=[1,2,3,7,8]] [agent_path=E:/python/python3.12/Lib/site-packages/maa/../MaaAgentBinary] 
+[2025-04-09 11:47:40.531][INF][Px21224][Tx52473][MuMuPlayerExtras.cpp][L22][MaaNS::CtrlUnitNs::MuMuPlayerExtras::parse] extras.mumu.enable is false, ignore 
+[2025-04-09 11:47:40.531][WRN][Px21224][Tx52473][ScreencapAgent.cpp][L118][MaaNS::CtrlUnitNs::ScreencapAgent::parse] failed to parse MuMuPlayerExtras 
+[2025-04-09 11:47:40.531][INF][Px21224][Tx52473][LDPlayerExtras.cpp][L39][MaaNS::CtrlUnitNs::LDPlayerExtras::parse] [lib_path_=D:/LD/leidian/LDPlayer9/ldopengl64] [ld_index_=0] [ld_pid_=11696] [info_parsed=true] 
+[2025-04-09 11:47:40.531][DBG][Px21224][Tx52473][ScreencapAgent.cpp][L128][MaaNS::CtrlUnitNs::ScreencapAgent::init] | enter 
+[2025-04-09 11:47:40.531][DBG][Px21224][Tx52473][LibraryHolder/LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::CtrlUnitNs::LDPlayerExtras>::load_library] [libname=D:/LD/leidian/LDPlayer9/ldopengl64] | enter 
+[2025-04-09 11:47:40.531][INF][Px21224][Tx52473][LibraryHolder/LibraryHolder.h][L64][MaaNS::LibraryHolder<class MaaNS::CtrlUnitNs::LDPlayerExtras>::load_library] Loading library [libname=D:/LD/leidian/LDPlayer9/ldopengl64] 
+[2025-04-09 11:47:40.533][TRC][Px21224][Tx52473][LibraryHolder/LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::CtrlUnitNs::LDPlayerExtras>::load_library] | leave, 2ms 
+[2025-04-09 11:47:40.533][DBG][Px21224][Tx52473][LibraryHolder/LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::CtrlUnitNs::LDPlayerExtras>::get_function] [func_name=CreateScreenShotInstance] | enter 
+[2025-04-09 11:47:40.533][TRC][Px21224][Tx52473][LibraryHolder/LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::CtrlUnitNs::LDPlayerExtras>::get_function] | leave, 0ms 
+[2025-04-09 11:47:40.533][DBG][Px21224][Tx52473][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | enter 
+[2025-04-09 11:47:40.537][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","dumpsys window displays | grep DisplayFrames | tail -n 1 | grep -o -E [0-9]+"]] [child_.id()=30528] 
+[2025-04-09 11:47:40.602][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=15] [duration=68ms] 
+[2025-04-09 11:47:40.602][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+1920
+1080
+0
+
+
+[2025-04-09 11:47:40.603][TRC][Px21224][Tx52473][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | leave, 70ms 
+[2025-04-09 11:47:40.604][INF][Px21224][Tx52473][LDPlayerExtras.cpp][L90][MaaNS::CtrlUnitNs::LDPlayerExtras::load_ld_library] Display resolution:  1920 x 1080 
+[2025-04-09 11:47:40.604][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L97][MaaNS::CtrlUnitNs::LDPlayerExtras::create_ld_instance] [ld_index_=0] [ld_pid_=11696] | enter 
+[2025-04-09 11:47:40.607][TRC][Px21224][Tx52473][LDPlayerExtras.cpp][L97][MaaNS::CtrlUnitNs::LDPlayerExtras::create_ld_instance] | leave, 3ms 
+[2025-04-09 11:47:40.607][DBG][Px21224][Tx52473][ScreencapAgent.cpp][L196][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] | enter 
+[2025-04-09 11:47:40.607][INF][Px21224][Tx52473][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing EncodeToFileAndPull 
+[2025-04-09 11:47:40.612][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","screencap -p > \"/data/local/tmp/2025.04.09-11.47.40.531\""]] [child_.id()=19432] 
+[2025-04-09 11:47:41.591][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=0] [duration=984ms] 
+[2025-04-09 11:47:41.596][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","pull","/data/local/tmp/2025.04.09-11.47.40.531","C:/Users/HP/AppData/Local/Temp/2025.04.09-11.47.40.607"]] [child_.id()=19608] 
+[2025-04-09 11:47:41.684][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=104] [duration=91ms] 
+[2025-04-09 11:47:41.684][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+/data/local/tmp/2025.04.09-11.47.40.531: 1 file pulled, 0 skipped. 46.4 MB/s (2291535 bytes in 0.047s)
+
+
+[2025-04-09 11:47:41.747][INF][Px21224][Tx52473][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=EncodeToFileAndPull] [duration=1140ms] 
+[2025-04-09 11:47:41.747][INF][Px21224][Tx52473][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing Encode 
+[2025-04-09 11:47:41.753][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","exec-out","screencap -p"]] [child_.id()=26404] 
+[2025-04-09 11:47:42.752][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2291676] [duration=1004ms] 
+[2025-04-09 11:47:42.802][INF][Px21224][Tx52473][ScreencapHelper.cpp][L52][MaaNS::CtrlUnitNs::ScreencapHelper::process_data] end_of_line is LF 
+[2025-04-09 11:47:42.803][INF][Px21224][Tx52473][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=Encode] [duration=1055ms] 
+[2025-04-09 11:47:42.803][INF][Px21224][Tx52473][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing RawWithGzip 
+[2025-04-09 11:47:42.807][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","exec-out","screencap | gzip -1"]] [child_.id()=20568] 
+[2025-04-09 11:47:43.130][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=3886088] [duration=327ms] 
+[2025-04-09 11:47:43.215][INF][Px21224][Tx52473][ScreencapHelper.cpp][L52][MaaNS::CtrlUnitNs::ScreencapHelper::process_data] end_of_line is LF 
+[2025-04-09 11:47:43.216][INF][Px21224][Tx52473][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=RawWithGzip] [duration=412ms] 
+[2025-04-09 11:47:43.216][INF][Px21224][Tx52473][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing LDPlayerExtras 
+[2025-04-09 11:47:43.216][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:47:43.227][INF][Px21224][Tx52473][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=LDPlayerExtras] [duration=10ms] 
+[2025-04-09 11:47:43.227][INF][Px21224][Tx52473][ScreencapAgent.cpp][L237][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] The fastest method is LDPlayerExtras [cost=10ms] 
+[2025-04-09 11:47:43.227][TRC][Px21224][Tx52473][ScreencapAgent.cpp][L196][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] | leave, 2619ms 
+[2025-04-09 11:47:43.227][TRC][Px21224][Tx52473][ScreencapAgent.cpp][L128][MaaNS::CtrlUnitNs::ScreencapAgent::init] | leave, 2696ms 
+[2025-04-09 11:47:43.227][INF][Px21224][Tx52473][InputAgent.cpp][L35][MaaNS::CtrlUnitNs::InputAgent::InputAgent] [methods=18446744073709551607] [method_vector=[3,2,1]] [agent_path=E:/python/python3.12/Lib/site-packages/maa/../MaaAgentBinary] 
+[2025-04-09 11:47:43.229][DBG][Px21224][Tx52473][InputAgent.cpp][L94][MaaNS::CtrlUnitNs::InputAgent::init] | enter 
+[2025-04-09 11:47:43.229][DBG][Px21224][Tx52473][MaatouchInput.cpp][L28][MaaNS::CtrlUnitNs::MaatouchInput::init] | enter 
+[2025-04-09 11:47:43.229][DBG][Px21224][Tx52473][InvokeApp.cpp][L59][MaaNS::CtrlUnitNs::InvokeApp::init] [tempname_=2025.04.09-11.47.43.229] 
+[2025-04-09 11:47:43.229][DBG][Px21224][Tx52473][InvokeApp.cpp][L106][MaaNS::CtrlUnitNs::InvokeApp::push] [path=E:/python/python3.12/Lib/site-packages/maa/../MaaAgentBinary/maatouch/universal/maatouch] | enter 
+[2025-04-09 11:47:43.233][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","push","E:/python/python3.12/Lib/site-packages/MaaAgentBinary/maatouch/universal/maatouch","/data/local/tmp/2025.04.09-11.47.43.229"]] [child_.id()=25640] 
+[2025-04-09 11:47:43.324][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=143] [duration=94ms] 
+[2025-04-09 11:47:43.324][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+E:/python/python3.12/Lib/site-packages/MaaAgentBinary/maatouch/universal/maatouch: 1 file pushed, 0 skipped. 0.3 MB/s (13775 bytes in 0.052s)
+
+
+[2025-04-09 11:47:43.324][TRC][Px21224][Tx52473][InvokeApp.cpp][L106][MaaNS::CtrlUnitNs::InvokeApp::push] | leave, 95ms 
+[2025-04-09 11:47:43.324][DBG][Px21224][Tx52473][InvokeApp.cpp][L127][MaaNS::CtrlUnitNs::InvokeApp::chmod] | enter 
+[2025-04-09 11:47:43.328][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","chmod 700 \"/data/local/tmp/2025.04.09-11.47.43.229\""]] [child_.id()=18824] 
+[2025-04-09 11:47:43.364][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=0] [duration=39ms] 
+[2025-04-09 11:47:43.364][TRC][Px21224][Tx52473][InvokeApp.cpp][L127][MaaNS::CtrlUnitNs::InvokeApp::chmod] | leave, 39ms 
+[2025-04-09 11:47:43.364][DBG][Px21224][Tx52473][InvokeApp.cpp][L203][MaaNS::CtrlUnitNs::InvokeApp::invoke_app] [package=com.shxyke.MaaTouch.App] | enter 
+[2025-04-09 11:47:43.368][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","export CLASSPATH=\"/data/local/tmp/2025.04.09-11.47.43.229\"; app_process /data/local/tmp com.shxyke.MaaTouch.App"]] [child_.id()=25328] 
+[2025-04-09 11:47:43.368][TRC][Px21224][Tx52473][InvokeApp.cpp][L203][MaaNS::CtrlUnitNs::InvokeApp::invoke_app] | leave, 3ms 
+[2025-04-09 11:47:43.616][INF][Px21224][Tx52473][MtouchHelper.cpp][L29][MaaNS::CtrlUnitNs::MtouchHelper::read_info] [info= 10 1920 1080 255
+] 
+[2025-04-09 11:47:43.617][DBG][Px21224][Tx52473][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | enter 
+[2025-04-09 11:47:43.619][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","dumpsys window displays | grep DisplayFrames | tail -n 1 | grep -o -E [0-9]+"]] [child_.id()=30708] 
+[2025-04-09 11:47:43.676][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=15] [duration=59ms] 
+[2025-04-09 11:47:43.676][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+1920
+1080
+0
+
+
+[2025-04-09 11:47:43.676][TRC][Px21224][Tx52473][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | leave, 60ms 
+[2025-04-09 11:47:43.676][DBG][Px21224][Tx52473][DeviceInfo.cpp][L68][MaaNS::CtrlUnitNs::DeviceInfo::request_orientation] | enter 
+[2025-04-09 11:47:43.681][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","dumpsys input | grep SurfaceOrientation | tail -n 1 | grep -m 1 -o -E [0-9]"]] [child_.id()=30096] 
+[2025-04-09 11:47:43.729][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=3] [duration=52ms] 
+[2025-04-09 11:47:43.729][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+0
+
+
+[2025-04-09 11:47:43.729][TRC][Px21224][Tx52473][DeviceInfo.cpp][L68][MaaNS::CtrlUnitNs::DeviceInfo::request_orientation] | leave, 52ms 
+[2025-04-09 11:47:43.729][INF][Px21224][Tx52473][MtouchHelper.cpp][L53][MaaNS::CtrlUnitNs::MtouchHelper::read_info] [display_width_=1920] [display_height_=1080] [touch_width_=1920] [touch_height_=1080] [xscale_=1] [yscale_=1] [press_=255] [orientation_=0] 
+[2025-04-09 11:47:43.729][TRC][Px21224][Tx52473][MaatouchInput.cpp][L28][MaaNS::CtrlUnitNs::MaatouchInput::init] | leave, 500ms 
+[2025-04-09 11:47:43.729][TRC][Px21224][Tx52473][InputAgent.cpp][L94][MaaNS::CtrlUnitNs::InputAgent::init] | leave, 500ms 
+[2025-04-09 11:47:43.729][TRC][Px21224][Tx52473][GeneralControllerAgent.cpp][L22][MaaNS::ControllerNS::GeneralControllerAgent::_connect] | leave, 3235ms 
+[2025-04-09 11:47:43.729][DBG][Px21224][Tx52473][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | enter 
+[2025-04-09 11:47:43.733][DBG][Px21224][Tx52473][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/LD/leidian/LDPlayer9/adb.exe] [args_=["-s","emulator-5554","shell","settings get secure android_id"]] [child_.id()=22768] 
+[2025-04-09 11:47:43.779][DBG][Px21224][Tx52473][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=18] [duration=49ms] 
+[2025-04-09 11:47:43.779][DBG][Px21224][Tx52473][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+2423c4cca81b7f19
+
+
+[2025-04-09 11:47:43.779][TRC][Px21224][Tx52473][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | leave, 50ms 
+[2025-04-09 11:47:43.780][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "connect",
+    "ctrl_id": 400000001,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:43.780][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:43.780][DBG][Px21224][Tx63686][MaaController.cpp][L252][MaaControllerPostScreencap] [ctrl=00000291BD9D3940] | enter 
+[2025-04-09 11:47:43.780][TRC][Px21224][Tx63686][MaaController.cpp][L252][MaaControllerPostScreencap] | leave, 0ms 
+[2025-04-09 11:47:43.780][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "screencap",
+    "ctrl_id": 400000002,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:43.780][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:43.780][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:47:43.788][INF][Px21224][Tx52473][ControllerAgent.cpp][L767][MaaNS::ControllerNS::ControllerAgent::postproc_screenshot] Resolution changed [raw.cols=1920] [raw.rows=1080] [image_raw_width_=0] [image_raw_height_=0] 
+[2025-04-09 11:47:43.788][DBG][Px21224][Tx52473][ControllerAgent.cpp][L797][MaaNS::ControllerNS::ControllerAgent::calc_target_image_size] Re-calc image target size: [image_target_long_side_=0] [image_target_short_side_=720] [image_raw_width_=1920] [image_raw_height_=1080] 
+[2025-04-09 11:47:43.788][INF][Px21224][Tx52473][ControllerAgent.cpp][L823][MaaNS::ControllerNS::ControllerAgent::calc_target_image_size] [image_target_width_=1280] [image_target_height_=720] 
+[2025-04-09 11:47:43.791][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "screencap",
+    "ctrl_id": 400000002,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:43.792][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:49.920][DBG][Px21224][Tx5407][MaaController.cpp][L144][MaaControllerPostClick] [ctrl=00000291BD9D3940] [x=409] [y=594] | enter 
+[2025-04-09 11:47:49.920][TRC][Px21224][Tx5407][MaaController.cpp][L144][MaaControllerPostClick] | leave, 0ms 
+[2025-04-09 11:47:49.920][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "click",
+    "ctrl_id": 400000003,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:49.920][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:49.920][INF][Px21224][Tx52473][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=614] [y=891] [touch_x=614] [touch_y=891] 
+[2025-04-09 11:47:49.920][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "click",
+    "ctrl_id": 400000003,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:49.920][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:50.919][DBG][Px21224][Tx63686][MaaController.cpp][L252][MaaControllerPostScreencap] [ctrl=00000291BD9D3940] | enter 
+[2025-04-09 11:47:50.919][TRC][Px21224][Tx63686][MaaController.cpp][L252][MaaControllerPostScreencap] | leave, 0ms 
+[2025-04-09 11:47:50.919][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "screencap",
+    "ctrl_id": 400000004,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:50.919][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:47:50.919][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:47:50.958][DBG][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "screencap",
+    "ctrl_id": 400000004,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:47:50.958][TRC][Px21224][Tx52473][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:48:42.839][DBG][Px21224][Tx63686][MaaResource.cpp][L12][MaaResourceCreate] [notify=00000291D7060FC0] [notify_trans_arg=0000000000000000] | enter 
+[2025-04-09 11:48:42.839][DBG][Px21224][Tx63686][OCRResMgr.cpp][L15][MaaNS::ResourceNS::OCRResMgr::OCRResMgr] | enter 
+[2025-04-09 11:48:42.841][TRC][Px21224][Tx63686][OCRResMgr.cpp][L15][MaaNS::ResourceNS::OCRResMgr::OCRResMgr] | leave, 0ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][ResourceMgr.cpp][L16][MaaNS::ResourceNS::ResourceMgr::ResourceMgr] [notify=00000291D7060FC0] [notify_trans_arg=0000000000000000] | enter 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][ResourceMgr.cpp][L16][MaaNS::ResourceNS::ResourceMgr::ResourceMgr] | leave, 0ms 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][MaaResource.cpp][L12][MaaResourceCreate] | leave, 56ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][MaaResource.cpp][L121][MaaResourceClear] [res=00000291D75AD980] | enter 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | enter 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | enter 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | leave, 0ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | enter 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | leave, 0ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | enter 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | leave, 0ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | enter 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | leave, 0ms 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][ResourceMgr.cpp][L203][MaaNS::ResourceNS::ResourceMgr::clear_custom_recognition] 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][ResourceMgr.cpp][L232][MaaNS::ResourceNS::ResourceMgr::clear_custom_action] 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | leave, 0ms 
+[2025-04-09 11:48:42.896][TRC][Px21224][Tx63686][MaaResource.cpp][L121][MaaResourceClear] | leave, 0ms 
+[2025-04-09 11:48:42.896][DBG][Px21224][Tx63686][MaaResource.cpp][L109][MaaResourcePostBundle] [res=00000291D75AD980] [path=E:\Python_poj\MaaPy\MaaPracticeBoilerplate\assets\resource] | enter 
+[2025-04-09 11:48:42.896][INF][Px21224][Tx63686][ResourceMgr.cpp][L50][MaaNS::ResourceNS::ResourceMgr::post_bundle] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] 
+[2025-04-09 11:48:42.897][TRC][Px21224][Tx63686][MaaResource.cpp][L109][MaaResourcePostBundle] | leave, 0ms 
+[2025-04-09 11:48:42.897][DBG][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] [id=400000001] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:48:42.897][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Starting] [details={
+    "hash": "",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000001
+}] | enter 
+[2025-04-09 11:48:42.897][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:48:42.897][DBG][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:48:42.897][INF][Px21224][Tx50539][ResourceMgr.cpp][L265][MaaNS::ResourceNS::ResourceMgr::available_providers] [all_providers_vec=["DmlExecutionProvider","CPUExecutionProvider"]] 
+[2025-04-09 11:48:42.897][INF][Px21224][Tx50539][ResourceMgr.cpp][L293][MaaNS::ResourceNS::ResourceMgr::available_providers] [s_provider_cache=[2,1]] 
+[2025-04-09 11:48:42.897][TRC][Px21224][Tx50539][GpuOptionWin32.cpp][L137][MaaNS::perfer_gpu] 
+[2025-04-09 11:48:42.916][INF][Px21224][Tx50539][GpuOptionWin32.cpp][L179][MaaNS::perfer_gpu] [adapter_index=0] [adapter_desc=NVIDIA GeForce RTX 3050 Ti Laptop GPU] 
+[2025-04-09 11:48:42.977][TRC][Px21224][Tx50539][GpuOptionWin32.cpp][L21][MaaNS::adapter_instance_path] 
+[2025-04-09 11:48:42.977][DBG][Px21224][Tx50539][GpuOptionWin32.cpp][L48][MaaNS::adapter_instance_path] [result=PCI\VEN_10DE&DEV_25A0&SUBSYS_8A22103C&REV_A1\4&183f2b8c&0&0009] 
+[2025-04-09 11:48:42.977][TRC][Px21224][Tx50539][GpuOptionWin32.cpp][L54][MaaNS::gpu_driver_date] 
+[2025-04-09 11:48:42.977][DBG][Px21224][Tx50539][GpuOptionWin32.cpp][L83][MaaNS::gpu_driver_date] [system_time.wYear=2024] [system_time.wMonth=8] [system_time.wDay=14] 
+[2025-04-09 11:48:42.977][TRC][Px21224][Tx50539][GpuOptionWin32.cpp][L89][MaaNS::is_indirect_display_adapter] 
+[2025-04-09 11:48:42.977][DBG][Px21224][Tx50539][GpuOptionWin32.cpp][L114][MaaNS::is_indirect_display_adapter] RegQueryValueExW 1 failed [ret=2] [type=0] [size=0] 
+[2025-04-09 11:48:42.977][INF][Px21224][Tx50539][GpuOptionWin32.cpp][L218][MaaNS::perfer_gpu] prefer adapter found [adapter_index=0] [adapter_desc=NVIDIA GeForce RTX 3050 Ti Laptop GPU] [instance_path=PCI\VEN_10DE&DEV_25A0&SUBSYS_8A22103C&REV_A1\4&183f2b8c&0&0009] 
+[2025-04-09 11:48:42.977][INF][Px21224][Tx50539][ONNXResMgr.cpp][L67][MaaNS::ResourceNS::ONNXResMgr::use_directml] [device_id=0] 
+[2025-04-09 11:48:43.228][INF][Px21224][Tx50539][ONNXResMgr.cpp][L83][MaaNS::ResourceNS::ONNXResMgr::use_directml] Using DML execution provider with device_id 0 
+[2025-04-09 11:48:43.228][INF][Px21224][Tx50539][OCRResMgr.cpp][L39][MaaNS::ResourceNS::OCRResMgr::use_directml] [device_id=0] 
+[2025-04-09 11:48:43.228][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] | enter 
+[2025-04-09 11:48:43.228][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L18][MaaNS::ResourceNS::DefaultPipelineMgr::load] path not exists [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] 
+[2025-04-09 11:48:43.229][TRC][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] | leave, 0ms 
+[2025-04-09 11:48:43.229][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline] [is_base=false] | enter 
+[2025-04-09 11:48:43.229][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline/my_task.json] | enter 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=MyTask1] 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 8ms 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] | leave, 9ms 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr] [is_base=false] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model] [is_base=false] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/image] [is_base=false] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:48:43.239][INF][Px21224][Tx50539][ResourceMgr.cpp][L527][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] [ret=true] 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] | leave, 341ms 
+[2025-04-09 11:48:43.239][INF][Px21224][Tx50539][ResourceMgr.cpp][L147][MaaNS::ResourceNS::ResourceMgr::calc_hash] [hash_cache_=ba7ac3294e18056f] 
+[2025-04-09 11:48:43.239][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Succeeded] [details={
+    "hash": "ba7ac3294e18056f",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000001
+}] | enter 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:48:43.239][TRC][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] | leave, 342ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][MaaResource.cpp][L121][MaaResourceClear] [res=00000291D75AD980] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | enter 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | enter 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | enter 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | enter 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | leave, 0ms 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][ResourceMgr.cpp][L203][MaaNS::ResourceNS::ResourceMgr::clear_custom_recognition] 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][ResourceMgr.cpp][L232][MaaNS::ResourceNS::ResourceMgr::clear_custom_action] 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | leave, 0ms 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][MaaResource.cpp][L121][MaaResourceClear] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx63686][MaaResource.cpp][L109][MaaResourcePostBundle] [res=00000291D75AD980] [path=E:\Python_poj\MaaPy\MaaPracticeBoilerplate\assets\resource] | enter 
+[2025-04-09 11:49:01.410][INF][Px21224][Tx63686][ResourceMgr.cpp][L50][MaaNS::ResourceNS::ResourceMgr::post_bundle] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx63686][MaaResource.cpp][L109][MaaResourcePostBundle] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] [id=400000002] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Starting] [details={
+    "hash": "",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000002
+}] | enter 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L18][MaaNS::ResourceNS::DefaultPipelineMgr::load] path not exists [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] 
+[2025-04-09 11:49:01.410][TRC][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] | leave, 0ms 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline] [is_base=false] | enter 
+[2025-04-09 11:49:01.410][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline/my_task.json] | enter 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=MyTask1] 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] | leave, 0ms 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr] [is_base=false] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model] [is_base=false] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/image] [is_base=false] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:49:01.411][INF][Px21224][Tx50539][ResourceMgr.cpp][L527][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] [ret=true] 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] | leave, 0ms 
+[2025-04-09 11:49:01.411][INF][Px21224][Tx50539][ResourceMgr.cpp][L147][MaaNS::ResourceNS::ResourceMgr::calc_hash] [hash_cache_=ba7ac3294e18056f] 
+[2025-04-09 11:49:01.411][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Succeeded] [details={
+    "hash": "ba7ac3294e18056f",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000002
+}] | enter 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:01.411][TRC][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] | leave, 1ms 
+[2025-04-09 11:49:01.412][DBG][Px21224][Tx63686][MaaTasker.cpp][L10][MaaTaskerCreate] [notify=00000291D7060FC0] [notify_trans_arg=00000291D72C1430] | enter 
+[2025-04-09 11:49:01.412][DBG][Px21224][Tx63686][Tasker.cpp][L17][MaaNS::Tasker::Tasker] [notify=00000291D7060FC0] [notify_trans_arg=00000291D72C1430] | enter 
+[2025-04-09 11:49:01.412][TRC][Px21224][Tx63686][Tasker.cpp][L17][MaaNS::Tasker::Tasker] | leave, 0ms 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][MaaTasker.cpp][L10][MaaTaskerCreate] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][MaaTasker.cpp][L41][MaaTaskerBindResource] [tasker=00000291D831DC00] [res=00000291D75AD980] | enter 
+[2025-04-09 11:49:01.413][INF][Px21224][Tx63686][Tasker.cpp][L33][MaaNS::Tasker::bind_resource] [this=00000291D831DC00] [resource=00000291D75AD980] 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][MaaTasker.cpp][L41][MaaTaskerBindResource] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][MaaTasker.cpp][L53][MaaTaskerBindController] [tasker=00000291D831DC00] [ctrl=00000291BD9D3940] | enter 
+[2025-04-09 11:49:01.413][INF][Px21224][Tx63686][Tasker.cpp][L47][MaaNS::Tasker::bind_controller] [this=00000291D831DC00] [controller=00000291BD9D3940] 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][MaaTasker.cpp][L53][MaaTaskerBindController] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][MaaTasker.cpp][L75][MaaTaskerPostTask] [tasker=00000291D831DC00] [entry=MyTask1] [pipeline_override={}] | enter 
+[2025-04-09 11:49:01.413][INF][Px21224][Tx63686][Tasker.cpp][L74][MaaNS::Tasker::post_task] [entry=MyTask1] [pipeline_override={
+}] 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000001] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000001] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=00000291BF548F40] [pipeline_override={
+}] | enter 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 0ms 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx63686][MaaTasker.cpp][L75][MaaTaskerPostTask] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000001] [task_ptr=00000291D7F62AF0] | enter 
+[2025-04-09 11:49:01.413][INF][Px21224][Tx36789][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "MyTask1",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000001,
+    "uuid": "2423c4cca81b7f19"
+}] 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Starting] [details={
+    "entry": "MyTask1",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000001,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:01.413][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx36789][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] [entry_=MyTask1] | enter 
+[2025-04-09 11:49:01.413][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:49:01.424][DBG][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=MyTask1] [list=["MyTask1"]] | enter 
+[2025-04-09 11:49:01.424][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Starting] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:01.426][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 1ms 
+[2025-04-09 11:49:01.426][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Starting] [details={
+    "name": "MyTask1",
+    "reco_id": 0,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:01.426][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:01.426][DBG][Px21224][Tx36789][OCRResMgr.cpp][L125][MaaNS::ResourceNS::OCRResMgr::load_deter] [name=] [roots_=["E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr"]] | enter 
+[2025-04-09 11:49:01.426][DBG][Px21224][Tx36789][OCRResMgr.cpp][L133][MaaNS::ResourceNS::OCRResMgr::load_deter] [model_path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr/det.onnx] 
+[2025-04-09 11:49:01.682][TRC][Px21224][Tx36789][OCRResMgr.cpp][L125][MaaNS::ResourceNS::OCRResMgr::load_deter] | leave, 256ms 
+[2025-04-09 11:49:01.682][DBG][Px21224][Tx36789][OCRResMgr.cpp][L151][MaaNS::ResourceNS::OCRResMgr::load_recer] [name=] [roots_=["E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr"]] | enter 
+[2025-04-09 11:49:01.682][DBG][Px21224][Tx36789][OCRResMgr.cpp][L160][MaaNS::ResourceNS::OCRResMgr::load_recer] [model_path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr/rec.onnx] 
+[2025-04-09 11:49:01.947][TRC][Px21224][Tx36789][OCRResMgr.cpp][L151][MaaNS::ResourceNS::OCRResMgr::load_recer] | leave, 265ms 
+[2025-04-09 11:49:01.948][DBG][Px21224][Tx36789][OCRResMgr.cpp][L182][MaaNS::ResourceNS::OCRResMgr::load_ocrer] [name=] [roots_=["E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr"]] | enter 
+[2025-04-09 11:49:01.948][TRC][Px21224][Tx36789][OCRResMgr.cpp][L182][MaaNS::ResourceNS::OCRResMgr::load_ocrer] | leave, 0ms 
+[2025-04-09 11:49:03.422][DBG][Px21224][Tx36789][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] MyTask1 [uid_=300000001] [all_results_=[{"box":[50,690,39,18],"score":0.934905,"text":"LV.1"},{"box":[53,678,35,15],"score":0.770493,"text":"OAZIN"},{"box":[58,21,46,26],"score":0.999918,"text":"返回"},{"box":[184,105,40,10],"score":0.261131,"text":"正"},{"box":[184,121,29,6],"score":0.000000,"text":""},{"box":[198,15,70,24],"score":0.992357,"text":"粗制赤金"},{"box":[198,38,15,14],"score":0.791972,"text":"3"},{"box":[232,121,16,6],"score":0.411700,"text":"TF"},{"box":[292,30,18,17],"score":0.348603,"text":"A"},{"box":[333,17,64,20],"score":0.996861,"text":"晶莹碎片"},{"box":[334,42,7,8],"score":0.085255,"text":"门"},{"box":[360,121,32,6],"score":0.073040,"text":"线"},{"box":[366,293,14,8],"score":0.000000,"text":""},{"box":[385,299,84,22],"score":0.998748,"text":"直奔深渊"},{"box":[389,284,55,15],"score":0.996504,"text":"捕猎区"},{"box":[490,540,19,10],"score":0.000000,"text":""},{"box":[573,520,17,12],"score":0.738975,"text":"n"},{"box":[597,528,92,22],"score":0.999713,"text":"林中寻宝"},{"box":[600,508,60,18],"score":0.998895,"text":"资源区"},{"box":[620,334,40,15],"score":0.109502,"text":"大"},{"box":[646,109,47,39],"score":0.978920,"text":"品"},{"box":[701,321,16,12],"score":0.768373,"text":"n"},{"box":[718,117,19,11],"score":0.529167,"text":"n"},{"box":[720,325,90,25],"score":0.999056,"text":"聚羽之地"},{"box":[725,313,53,15],"score":0.996015,"text":"捕猎区"},{"box":[734,119,103,25],"score":0.992585,"text":"丰饶灌木林"},{"box":[742,111,50,13],"score":0.999200,"text":"资源区"},{"box":[742,150,28,15],"score":0.111589,"text":"F"},{"box":[913,407,51,46],"score":0.194003,"text":"口"},{"box":[989,74,48,38],"score":0.199296,"text":"?"},{"box":[1014,411,26,15],"score":0.983295,"text":"5"},{"box":[1042,402,44,20],"score":0.996062,"text":"哨站"},{"box":[1045,423,113,19],"score":0.997625,"text":"广迎敌之处"},{"box":[1206,344,51,18],"score":0.108661,"text":"H"},{"box":[1208,287,9,14],"score":0.305175,"text":"?"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=1474ms] [param_.model=] [param_.only_rec=false] [param_.expected=["电池"]] 
+[2025-04-09 11:49:03.422][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Failed] [details={
+    "name": "MyTask1",
+    "reco_id": 300000001,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.422][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.424][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Failed] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.424][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.424][TRC][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 1999ms 
+[2025-04-09 11:49:03.424][DBG][Px21224][Tx36789][PipelineTask.cpp][L150][MaaNS::TaskNS::PipelineTask::run_reco_and_action] sleep_until [pretask.rate_limit=1000ms] 
+[2025-04-09 11:49:03.424][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:49:03.434][DBG][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=MyTask1] [list=["MyTask1"]] | enter 
+[2025-04-09 11:49:03.434][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Starting] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.435][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.435][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Starting] [details={
+    "name": "MyTask1",
+    "reco_id": 0,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.435][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.683][DBG][Px21224][Tx36789][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] MyTask1 [uid_=300000002] [all_results_=[{"box":[50,690,39,18],"score":0.934905,"text":"LV.1"},{"box":[53,678,35,15],"score":0.770493,"text":"OAZIN"},{"box":[58,21,46,26],"score":0.999918,"text":"返回"},{"box":[184,105,40,10],"score":0.245432,"text":"正"},{"box":[184,121,29,6],"score":0.000000,"text":""},{"box":[198,15,70,24],"score":0.992296,"text":"粗制赤金"},{"box":[198,38,15,14],"score":0.827987,"text":"3"},{"box":[232,121,16,6],"score":0.437739,"text":"TF"},{"box":[292,30,18,17],"score":0.329183,"text":"A"},{"box":[333,17,64,20],"score":0.996757,"text":"晶莹碎片"},{"box":[334,42,7,8],"score":0.100412,"text":"门"},{"box":[360,121,32,6],"score":0.072276,"text":"线"},{"box":[366,293,14,8],"score":0.000000,"text":""},{"box":[385,299,84,22],"score":0.998748,"text":"直奔深渊"},{"box":[389,284,55,15],"score":0.996504,"text":"捕猎区"},{"box":[490,540,19,10],"score":0.000000,"text":""},{"box":[573,520,17,12],"score":0.738975,"text":"n"},{"box":[597,528,92,22],"score":0.999713,"text":"林中寻宝"},{"box":[600,508,60,18],"score":0.998895,"text":"资源区"},{"box":[620,334,40,15],"score":0.109502,"text":"大"},{"box":[646,109,47,39],"score":0.978920,"text":"品"},{"box":[701,321,16,12],"score":0.768373,"text":"n"},{"box":[718,117,19,11],"score":0.529167,"text":"n"},{"box":[720,325,90,25],"score":0.999056,"text":"聚羽之地"},{"box":[725,313,53,15],"score":0.996015,"text":"捕猎区"},{"box":[734,119,103,25],"score":0.992585,"text":"丰饶灌木林"},{"box":[742,111,50,13],"score":0.999200,"text":"资源区"},{"box":[742,150,28,15],"score":0.111589,"text":"F"},{"box":[913,407,51,46],"score":0.194003,"text":"口"},{"box":[989,74,48,38],"score":0.199303,"text":"?"},{"box":[1014,411,26,15],"score":0.983295,"text":"5"},{"box":[1042,402,44,20],"score":0.996062,"text":"哨站"},{"box":[1045,423,113,19],"score":0.997625,"text":"广迎敌之处"},{"box":[1206,344,51,18],"score":0.108661,"text":"H"},{"box":[1208,287,9,14],"score":0.305175,"text":"?"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=249ms] [param_.model=] [param_.only_rec=false] [param_.expected=["电池"]] 
+[2025-04-09 11:49:03.684][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Failed] [details={
+    "name": "MyTask1",
+    "reco_id": 300000002,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.684][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.684][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Failed] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:03.684][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:03.684][TRC][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 251ms 
+[2025-04-09 11:49:03.684][DBG][Px21224][Tx36789][PipelineTask.cpp][L150][MaaNS::TaskNS::PipelineTask::run_reco_and_action] sleep_until [pretask.rate_limit=1000ms] 
+[2025-04-09 11:49:04.425][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:49:04.435][DBG][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=MyTask1] [list=["MyTask1"]] | enter 
+[2025-04-09 11:49:04.435][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Starting] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:04.435][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:04.435][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Starting] [details={
+    "name": "MyTask1",
+    "reco_id": 0,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:04.436][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:04.689][DBG][Px21224][Tx36789][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] MyTask1 [uid_=300000003] [all_results_=[{"box":[50,690,39,18],"score":0.934905,"text":"LV.1"},{"box":[53,678,35,15],"score":0.770493,"text":"OAZIN"},{"box":[58,21,46,26],"score":0.999918,"text":"返回"},{"box":[184,105,40,10],"score":0.208365,"text":"正"},{"box":[184,121,29,6],"score":0.129193,"text":"E"},{"box":[198,15,70,24],"score":0.992218,"text":"粗制赤金"},{"box":[198,38,15,14],"score":0.786629,"text":"3"},{"box":[232,121,16,6],"score":0.573313,"text":"T"},{"box":[292,30,18,17],"score":0.318975,"text":"A"},{"box":[333,17,64,20],"score":0.996787,"text":"晶莹碎片"},{"box":[334,42,7,8],"score":0.095800,"text":"门"},{"box":[360,121,30,6],"score":0.064703,"text":"高线"},{"box":[366,293,14,8],"score":0.000000,"text":""},{"box":[385,299,84,22],"score":0.998748,"text":"直奔深渊"},{"box":[389,284,55,15],"score":0.996504,"text":"捕猎区"},{"box":[490,540,19,10],"score":0.000000,"text":""},{"box":[573,520,17,12],"score":0.738975,"text":"n"},{"box":[597,528,92,22],"score":0.999713,"text":"林中寻宝"},{"box":[600,508,60,18],"score":0.998895,"text":"资源区"},{"box":[620,334,40,15],"score":0.109502,"text":"大"},{"box":[646,109,47,39],"score":0.978920,"text":"品"},{"box":[701,321,16,12],"score":0.768373,"text":"n"},{"box":[718,117,19,11],"score":0.529167,"text":"n"},{"box":[720,325,90,25],"score":0.999056,"text":"聚羽之地"},{"box":[725,313,53,15],"score":0.996015,"text":"捕猎区"},{"box":[734,119,103,25],"score":0.992585,"text":"丰饶灌木林"},{"box":[742,111,50,13],"score":0.999200,"text":"资源区"},{"box":[742,150,28,15],"score":0.111589,"text":"F"},{"box":[913,407,51,46],"score":0.194003,"text":"口"},{"box":[989,74,48,38],"score":0.199005,"text":"?"},{"box":[1014,411,26,15],"score":0.983295,"text":"5"},{"box":[1042,402,44,20],"score":0.996062,"text":"哨站"},{"box":[1045,423,113,19],"score":0.997625,"text":"广迎敌之处"},{"box":[1206,344,51,18],"score":0.108661,"text":"H"},{"box":[1208,287,9,14],"score":0.305175,"text":"?"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=252ms] [param_.model=] [param_.only_rec=false] [param_.expected=["电池"]] 
+[2025-04-09 11:49:04.689][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Failed] [details={
+    "name": "MyTask1",
+    "reco_id": 300000003,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:04.690][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:04.690][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Failed] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:04.690][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:04.690][TRC][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 255ms 
+[2025-04-09 11:49:04.690][DBG][Px21224][Tx36789][PipelineTask.cpp][L150][MaaNS::TaskNS::PipelineTask::run_reco_and_action] sleep_until [pretask.rate_limit=1000ms] 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][MaaTasker.cpp][L128][MaaTaskerPostStop] [tasker=00000291D831DC00] | enter 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | enter 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | enter 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | leave, 0ms 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | enter 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | leave, 0ms 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000002] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000002] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=00000291D821C890] [pipeline_override={
+}] | enter 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:49:04.941][DBG][Px21224][Tx5407][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 0ms 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | leave, 0ms 
+[2025-04-09 11:49:04.941][TRC][Px21224][Tx5407][MaaTasker.cpp][L128][MaaTaskerPostStop] | leave, 0ms 
+[2025-04-09 11:49:05.425][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:49:05.436][DBG][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=MyTask1] [list=["MyTask1"]] | enter 
+[2025-04-09 11:49:05.436][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Starting] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:05.437][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.437][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Starting] [details={
+    "name": "MyTask1",
+    "reco_id": 0,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:05.437][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.691][DBG][Px21224][Tx36789][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] MyTask1 [uid_=300000004] [all_results_=[{"box":[50,690,39,18],"score":0.934905,"text":"LV.1"},{"box":[53,678,35,15],"score":0.770493,"text":"OAZIN"},{"box":[58,21,46,26],"score":0.999918,"text":"返回"},{"box":[184,105,40,10],"score":0.252093,"text":"正"},{"box":[184,121,29,6],"score":0.122619,"text":"E"},{"box":[198,15,70,24],"score":0.992318,"text":"粗制赤金"},{"box":[198,38,15,14],"score":0.786629,"text":"3"},{"box":[232,121,16,6],"score":0.369441,"text":"TEF"},{"box":[292,30,18,17],"score":0.351204,"text":"A"},{"box":[333,17,64,20],"score":0.996866,"text":"晶莹碎片"},{"box":[334,42,7,8],"score":0.100238,"text":"门"},{"box":[360,121,30,6],"score":0.064703,"text":"高线"},{"box":[366,293,14,8],"score":0.000000,"text":""},{"box":[385,299,84,22],"score":0.998748,"text":"直奔深渊"},{"box":[389,284,55,15],"score":0.996504,"text":"捕猎区"},{"box":[490,540,19,10],"score":0.000000,"text":""},{"box":[573,520,17,12],"score":0.738975,"text":"n"},{"box":[597,528,92,22],"score":0.999713,"text":"林中寻宝"},{"box":[600,508,60,18],"score":0.998895,"text":"资源区"},{"box":[620,334,40,15],"score":0.109502,"text":"大"},{"box":[646,109,47,39],"score":0.978920,"text":"品"},{"box":[701,321,16,12],"score":0.768373,"text":"n"},{"box":[718,117,19,11],"score":0.529167,"text":"n"},{"box":[720,325,90,25],"score":0.999056,"text":"聚羽之地"},{"box":[725,313,53,15],"score":0.996015,"text":"捕猎区"},{"box":[734,119,103,25],"score":0.992585,"text":"丰饶灌木林"},{"box":[742,111,50,13],"score":0.999200,"text":"资源区"},{"box":[742,150,28,15],"score":0.111589,"text":"F"},{"box":[913,407,51,46],"score":0.194003,"text":"口"},{"box":[989,74,48,38],"score":0.199343,"text":"?"},{"box":[1014,411,26,15],"score":0.983295,"text":"5"},{"box":[1042,402,44,20],"score":0.996062,"text":"哨站"},{"box":[1045,423,113,19],"score":0.997625,"text":"广迎敌之处"},{"box":[1206,344,51,18],"score":0.108661,"text":"H"},{"box":[1208,287,9,14],"score":0.305175,"text":"?"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=254ms] [param_.model=] [param_.only_rec=false] [param_.expected=["电池"]] 
+[2025-04-09 11:49:05.691][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Failed] [details={
+    "name": "MyTask1",
+    "reco_id": 300000004,
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:05.691][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.691][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Failed] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000001
+}] | enter 
+[2025-04-09 11:49:05.691][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.691][TRC][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 256ms 
+[2025-04-09 11:49:05.691][WRN][Px21224][Tx36789][PipelineTask.cpp][L141][MaaNS::TaskNS::PipelineTask::run_reco_and_action] need_to_stop [pretask.name=MyTask1] 
+[2025-04-09 11:49:05.691][WRN][Px21224][Tx36789][PipelineTask.cpp][L48][MaaNS::TaskNS::PipelineTask::run] need_to_stop [node.name=MyTask1] 
+[2025-04-09 11:49:05.692][TRC][Px21224][Tx36789][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] | leave, 4278ms 
+[2025-04-09 11:49:05.692][INF][Px21224][Tx36789][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "MyTask1",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000001,
+    "uuid": "2423c4cca81b7f19"
+}] [ret=true] 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "MyTask1",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000001,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:05.692][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] Flush log 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:05.692][TRC][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 4278ms 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000002] [task_ptr=00000291E839E740] | enter 
+[2025-04-09 11:49:05.692][INF][Px21224][Tx36789][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000002,
+    "uuid": "2423c4cca81b7f19"
+}] 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Starting] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000002,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:05.692][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.692][INF][Px21224][Tx36789][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000002,
+    "uuid": "2423c4cca81b7f19"
+}] [ret=true] 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000002,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:05.692][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] Flush log 
+[2025-04-09 11:49:05.692][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:05.693][TRC][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 0ms 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][MaaTasker.cpp][L128][MaaTaskerPostStop] [tasker=00000291D831DC00] | enter 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | enter 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | enter 
+[2025-04-09 11:49:07.115][TRC][Px21224][Tx63686][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | leave, 0ms 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | enter 
+[2025-04-09 11:49:07.115][TRC][Px21224][Tx63686][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | leave, 0ms 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000003] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000003] [tasker=00000291D831DC00] 
+[2025-04-09 11:49:07.115][DBG][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=00000291BF548360] [pipeline_override={
+}] | enter 
+[2025-04-09 11:49:07.123][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:49:07.123][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:49:07.123][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 7ms 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | leave, 7ms 
+[2025-04-09 11:49:07.123][TRC][Px21224][Tx63686][MaaTasker.cpp][L128][MaaTaskerPostStop] | leave, 7ms 
+[2025-04-09 11:49:07.123][DBG][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000003] [task_ptr=00000291FC3E8180] | enter 
+[2025-04-09 11:49:07.124][INF][Px21224][Tx36789][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000003,
+    "uuid": "2423c4cca81b7f19"
+}] 
+[2025-04-09 11:49:07.124][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Starting] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000003,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:07.124][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:07.124][INF][Px21224][Tx36789][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000003,
+    "uuid": "2423c4cca81b7f19"
+}] [ret=true] 
+[2025-04-09 11:49:07.124][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "ba7ac3294e18056f",
+    "task_id": 100000003,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:49:07.124][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:49:07.124][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:07.124][DBG][Px21224][Tx36789][Logger] Flush log 
+[2025-04-09 11:49:07.124][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:49:07.124][TRC][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 0ms 
+[2025-04-09 11:52:06.748][DBG][Px21224][Tx5407][MaaResource.cpp][L121][MaaResourceClear] [res=00000291D75AD980] | enter 
+[2025-04-09 11:52:06.751][DBG][Px21224][Tx5407][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | enter 
+[2025-04-09 11:52:06.751][DBG][Px21224][Tx5407][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | enter 
+[2025-04-09 11:52:06.752][TRC][Px21224][Tx5407][PipelineResMgr.cpp][L36][MaaNS::ResourceNS::PipelineResMgr::clear] | leave, 0ms 
+[2025-04-09 11:52:06.752][DBG][Px21224][Tx5407][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | enter 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][OCRResMgr.cpp][L71][MaaNS::ResourceNS::OCRResMgr::clear] | leave, 259ms 
+[2025-04-09 11:52:07.012][DBG][Px21224][Tx5407][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | enter 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][ONNXResMgr.cpp][L132][MaaNS::ResourceNS::ONNXResMgr::clear] | leave, 0ms 
+[2025-04-09 11:52:07.012][DBG][Px21224][Tx5407][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | enter 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][TemplateResMgr.cpp][L22][MaaNS::ResourceNS::TemplateResMgr::clear] | leave, 0ms 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][ResourceMgr.cpp][L203][MaaNS::ResourceNS::ResourceMgr::clear_custom_recognition] 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][ResourceMgr.cpp][L232][MaaNS::ResourceNS::ResourceMgr::clear_custom_action] 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][ResourceMgr.cpp][L158][MaaNS::ResourceNS::ResourceMgr::clear] | leave, 260ms 
+[2025-04-09 11:52:07.012][TRC][Px21224][Tx5407][MaaResource.cpp][L121][MaaResourceClear] | leave, 266ms 
+[2025-04-09 11:52:07.013][DBG][Px21224][Tx5407][MaaResource.cpp][L109][MaaResourcePostBundle] [res=00000291D75AD980] [path=E:\Python_poj\MaaPy\MaaPracticeBoilerplate\assets\resource] | enter 
+[2025-04-09 11:52:07.013][INF][Px21224][Tx5407][ResourceMgr.cpp][L50][MaaNS::ResourceNS::ResourceMgr::post_bundle] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] 
+[2025-04-09 11:52:07.013][TRC][Px21224][Tx5407][MaaResource.cpp][L109][MaaResourcePostBundle] | leave, 0ms 
+[2025-04-09 11:52:07.013][DBG][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] [id=400000003] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:52:07.014][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Starting] [details={
+    "hash": "",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000003
+}] | enter 
+[2025-04-09 11:52:07.016][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 1ms 
+[2025-04-09 11:52:07.016][DBG][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] | enter 
+[2025-04-09 11:52:07.016][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] | enter 
+[2025-04-09 11:52:07.016][DBG][Px21224][Tx50539][DefaultPipelineMgr.cpp][L18][MaaNS::ResourceNS::DefaultPipelineMgr::load] path not exists [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/default_pipeline.json] 
+[2025-04-09 11:52:07.016][TRC][Px21224][Tx50539][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] | leave, 0ms 
+[2025-04-09 11:52:07.016][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline] [is_base=false] | enter 
+[2025-04-09 11:52:07.016][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/pipeline/my_task.json] | enter 
+[2025-04-09 11:52:07.024][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=MyTask1] 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 8ms 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] | leave, 9ms 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model/ocr] [is_base=false] | enter 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/model] [is_base=false] | enter 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:52:07.025][DBG][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/image] [is_base=false] | enter 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] | leave, 0ms 
+[2025-04-09 11:52:07.025][INF][Px21224][Tx50539][ResourceMgr.cpp][L527][MaaNS::ResourceNS::ResourceMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource] [ret=true] 
+[2025-04-09 11:52:07.025][TRC][Px21224][Tx50539][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] | leave, 9ms 
+[2025-04-09 11:52:07.026][INF][Px21224][Tx50539][ResourceMgr.cpp][L147][MaaNS::ResourceNS::ResourceMgr::calc_hash] [hash_cache_=b21b165cabefa36e] 
+[2025-04-09 11:52:07.026][DBG][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Succeeded] [details={
+    "hash": "b21b165cabefa36e",
+    "path": "E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource",
+    "res_id": 400000003
+}] | enter 
+[2025-04-09 11:52:07.026][TRC][Px21224][Tx50539][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.026][TRC][Px21224][Tx50539][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] | leave, 12ms 
+[2025-04-09 11:52:07.029][DBG][Px21224][Tx63686][MaaTasker.cpp][L41][MaaTaskerBindResource] [tasker=00000291D831DC00] [res=00000291D75AD980] | enter 
+[2025-04-09 11:52:07.030][INF][Px21224][Tx63686][Tasker.cpp][L33][MaaNS::Tasker::bind_resource] [this=00000291D831DC00] [resource=00000291D75AD980] 
+[2025-04-09 11:52:07.030][TRC][Px21224][Tx63686][MaaTasker.cpp][L41][MaaTaskerBindResource] | leave, 0ms 
+[2025-04-09 11:52:07.030][DBG][Px21224][Tx63686][MaaTasker.cpp][L53][MaaTaskerBindController] [tasker=00000291D831DC00] [ctrl=00000291BD9D3940] | enter 
+[2025-04-09 11:52:07.030][INF][Px21224][Tx63686][Tasker.cpp][L47][MaaNS::Tasker::bind_controller] [this=00000291D831DC00] [controller=00000291BD9D3940] 
+[2025-04-09 11:52:07.030][TRC][Px21224][Tx63686][MaaTasker.cpp][L53][MaaTaskerBindController] | leave, 0ms 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][MaaTasker.cpp][L75][MaaTaskerPostTask] [tasker=00000291D831DC00] [entry=MyTask1] [pipeline_override={}] | enter 
+[2025-04-09 11:52:07.031][INF][Px21224][Tx63686][Tasker.cpp][L74][MaaNS::Tasker::post_task] [entry=MyTask1] [pipeline_override={
+}] 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000004] [tasker=00000291D831DC00] 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000004] [tasker=00000291D831DC00] 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=00000291BF548720] [pipeline_override={
+}] | enter 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-04-09 11:52:07.031][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-04-09 11:52:07.031][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-04-09 11:52:07.031][TRC][Px21224][Tx63686][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-04-09 11:52:07.031][TRC][Px21224][Tx63686][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 0ms 
+[2025-04-09 11:52:07.031][TRC][Px21224][Tx63686][MaaTasker.cpp][L75][MaaTaskerPostTask] | leave, 0ms 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000004] [task_ptr=00000291F53314E0] | enter 
+[2025-04-09 11:52:07.031][INF][Px21224][Tx36789][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "MyTask1",
+    "hash": "b21b165cabefa36e",
+    "task_id": 100000004,
+    "uuid": "2423c4cca81b7f19"
+}] 
+[2025-04-09 11:52:07.031][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Starting] [details={
+    "entry": "MyTask1",
+    "hash": "b21b165cabefa36e",
+    "task_id": 100000004,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:52:07.032][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.032][DBG][Px21224][Tx36789][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] [entry_=MyTask1] | enter 
+[2025-04-09 11:52:07.034][DBG][Px21224][Tx52473][LDPlayerExtras.cpp][L50][MaaNS::CtrlUnitNs::LDPlayerExtras::screencap] 
+[2025-04-09 11:52:07.141][DBG][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=MyTask1] [list=["MyTask1"]] | enter 
+[2025-04-09 11:52:07.141][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Starting] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.146][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 5ms 
+[2025-04-09 11:52:07.147][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Starting] [details={
+    "name": "MyTask1",
+    "reco_id": 0,
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.147][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.147][DBG][Px21224][Tx36789][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] [name=Arknights/gamestart/下一日.png] [roots_=["E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/image"]] | enter 
+[2025-04-09 11:52:07.147][DBG][Px21224][Tx36789][TemplateResMgr.cpp][L52][MaaNS::ResourceNS::TemplateResMgr::load] [path=E:/Python_poj/MaaPy/MaaPracticeBoilerplate/assets/resource/image/Arknights/gamestart/下一日.png] 
+[2025-04-09 11:52:07.159][TRC][Px21224][Tx36789][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] | leave, 12ms 
+[2025-04-09 11:52:07.342][DBG][Px21224][Tx36789][FeatureMatcher.cpp][L182][MaaNS::VisionNS::FeatureMatcher::feature_postproc] MyTask1 [uid_=300000005] Match: [good_matches.size()=28] [match_points.size()=4485] [param_.distance_ratio=0.6] 
+[2025-04-09 11:52:07.357][DBG][Px21224][Tx36789][FeatureMatcher.cpp][L54][MaaNS::VisionNS::FeatureMatcher::analyze] MyTask1 [uid_=300000005] [all_results_=[{"box":[1085,5,165,161],"count":24}]] [filtered_results_=[{"box":[1085,5,165,161],"count":24}]] [best_result_={"box":[1085,5,165,161],"count":24}] [cost=197ms] [param_.template_paths=["Arknights/gamestart/下一日.png"]] [param_.green_mask=false] [param_.distance_ratio=0.6] [param_.count=4] 
+[2025-04-09 11:52:07.358][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Recognition.Succeeded] [details={
+    "name": "MyTask1",
+    "reco_id": 300000005,
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.358][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.358][INF][Px21224][Tx36789][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=MyTask1] [result.box=[165 x 161 from (1085, 5)]] 
+[2025-04-09 11:52:07.358][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.NextList.Succeeded] [details={
+    "list": [
+        "MyTask1"
+    ],
+    "name": "MyTask1",
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.358][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.358][TRC][Px21224][Tx36789][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 217ms 
+[2025-04-09 11:52:07.358][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Action.Starting] [details={
+    "name": "MyTask1",
+    "node_id": 0,
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.358][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.358][DBG][Px21224][Tx36789][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=MyTask1] | enter 
+[2025-04-09 11:52:07.358][DBG][Px21224][Tx36789][Actuator.cpp][L324][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-04-09 11:52:07.560][TRC][Px21224][Tx36789][Actuator.cpp][L324][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-04-09 11:52:07.560][INF][Px21224][Tx52473][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=1773] [y=131] [touch_x=1773] [touch_y=131] 
+[2025-04-09 11:52:07.560][DBG][Px21224][Tx36789][Actuator.cpp][L324][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-04-09 11:52:07.762][TRC][Px21224][Tx36789][Actuator.cpp][L324][MaaNS::TaskNS::Actuator::sleep] | leave, 201ms 
+[2025-04-09 11:52:07.762][TRC][Px21224][Tx36789][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 403ms 
+[2025-04-09 11:52:07.762][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Node.Action.Succeeded] [details={
+    "name": "MyTask1",
+    "node_id": 200000001,
+    "task_id": 100000004
+}] | enter 
+[2025-04-09 11:52:07.762][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.762][TRC][Px21224][Tx36789][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] | leave, 729ms 
+[2025-04-09 11:52:07.762][INF][Px21224][Tx36789][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "MyTask1",
+    "hash": "b21b165cabefa36e",
+    "task_id": 100000004,
+    "uuid": "2423c4cca81b7f19"
+}] [ret=true] 
+[2025-04-09 11:52:07.762][DBG][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00000291D7060FC0] [notify_trans_arg_=00000291D72C1430] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "MyTask1",
+    "hash": "b21b165cabefa36e",
+    "task_id": 100000004,
+    "uuid": "2423c4cca81b7f19"
+}] | enter 
+[2025-04-09 11:52:07.762][TRC][Px21224][Tx36789][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-04-09 11:52:07.762][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:52:07.762][DBG][Px21224][Tx36789][Logger] Flush log 
+[2025-04-09 11:52:07.762][DBG][Px21224][Tx36789][Logger] ----------------------------- 
+[2025-04-09 11:52:07.763][TRC][Px21224][Tx36789][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 731ms 
